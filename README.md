@@ -9,7 +9,7 @@ My variant is **5**.
 
 In the game, there should be a menu so the user can choose either X or O.
 
-###Technology stack
+### Technology stack
 The following **technologies will be used**
 * **Programming language**: C++
 * **HW**: Arduino Uno

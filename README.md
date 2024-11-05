@@ -1,7 +1,7 @@
 ### Repository details
 ---
 This repository belongs to **Sofiia Hryn**, a student of group **KI-405**, and was created for completing laboratory assignments in the subject of **Automated design of computer systems**.
-###Task details
+### Task details
 ---
 My variant is **5**.
 * **My task** is to create a **tik-tac-toe (3x3) game**.

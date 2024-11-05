@@ -1,4 +1,4 @@
-###Repository details
+### Repository details
 ---
 This repository belongs to **Sofiia Hryn**, a student of group **KI-405**, and was created for completing laboratory assignments in the subject of **Automated design of computer systems**.
 ###Task details

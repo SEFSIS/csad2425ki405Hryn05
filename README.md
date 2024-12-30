@@ -7,11 +7,19 @@ My variant is 5.
 * My task is to create a tik-tac-toe (3x3) game.
 * Config format: JSON.
 
-In the game, there should be a menu so the user can choose either X or O.
-
+Game should have a menu where you can select the following game modes
+* Man vs Man
 ### Technology stack
-The following technologies will be used
-* Programming language: C++
-* HW: Arduino Uno
-* Development environment: VS Code
-* Testing Framework: Googletest
+---
+The following **technologies will be used** in this project
+* **Programming language**: C#
+* **SW**: .NET WPF
+* **HW**: Arduino Uno R3 CH340
+* **Testing Framework**: MSTest, FakeItEasy
+### Getting Started
+---
+1. Clone the repository: git clone https://github.com/SEFSIS/csad2425ki405Hryn05.git
+2. Flash the Arduino Uno R3: Load the server code onto the Arduino Uno R3 using Arduino IDE.
+3. Run the game:
+   * 3.1 Connect Arduino Uno R3 with loaded code.
+   * 3.2 Start the client by running Lab2csad.exe.

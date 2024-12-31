@@ -1,0 +1,22 @@
+{
+  "board": [
+    [
+      true,
+      null,
+      false
+    ],
+    [
+      null,
+      null,
+      null
+    ],
+    [
+      true,
+      null,
+      null
+    ]
+  ],
+  "mode": 2,
+  "status": 0,
+  "manPlayer": false
+}

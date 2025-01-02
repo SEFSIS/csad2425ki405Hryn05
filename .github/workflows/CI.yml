@@ -3,10 +3,10 @@ name: CI task3
 on:
   push:
     branches:
-      - feature/develop/task3
+      - develop
   pull_request:
     branches:
-      - feature/develop/task3
+      - develop
 
 jobs:
   build:
@@ -22,10 +22,10 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore Lab3/Client/Client.sln
+      run: dotnet restore Lab3-4/Client/Client.sln
 
     - name: Build solution
-      run: dotnet build Lab3/Client/Client.sln --configuration Release --no-restore
+      run: dotnet build Lab3-4/Client/Client.sln --configuration Release --no-restore
 
     - name: Run tests
       run: dotnet test Lab3/Client/Client.Domain.Tests/Client.Domain.Tests.csproj --logger "trx;LogFileName=test_results.trx" --results-directory ./TestResults --collect:"XPlat Code Coverage"

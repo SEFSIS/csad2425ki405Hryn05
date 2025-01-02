@@ -75,7 +75,7 @@ jobs:
         if (-Not (Test-Path "./ci-build/server/")) {
           New-Item -ItemType Directory -Path "./ci-build/server/"
         }
-        Copy-Item "$env:GITHUB_WORKSPACE/Lab3\Server/firmware/build/arduino.avr.uno/firmware.ino.hex" -Destination "./ci-build/server/server-script-arduino-uno-r3.ino.hex"
+        Copy-Item "$env:GITHUB_WORKSPACE/Lab3-4\Server/firmware/build/arduino.avr.uno/firmware.ino.hex" -Destination "./ci-build/server/server-script-arduino-uno-r3.ino.hex"
 
     - name: Upload Arduino Uno R3 HEX Artifact
       uses: actions/upload-artifact@v3

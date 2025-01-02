@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model" kind="class" language="C#" prot="public">
+    <compoundname>Client::Presentation::ViewModels::HomeViewModel</compoundname>
+    <basecompoundref refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model" prot="public" virt="non-virtual">Client.Presentation.ViewModels.BaseViewModel</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1a182935c712670970fecb76692eeab884" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_i_settings_service" kindref="compound">ISettingsService</ref></type>
+        <definition>ISettingsService Client.Presentation.ViewModels.HomeViewModel._settings</definition>
+        <argsstring></argsstring>
+        <name>_settings</name>
+        <qualifiedname>Client.Presentation.ViewModels.HomeViewModel._settings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" line="15" column="30" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1a6724502bf715a734a9cd1ad0c7a8cd59" prot="private" static="no" mutable="no">
+        <type>ICommand</type>
+        <definition>ICommand Client.Presentation.ViewModels.HomeViewModel._openSettingsCommand</definition>
+        <argsstring></argsstring>
+        <name>_openSettingsCommand</name>
+        <qualifiedname>Client.Presentation.ViewModels.HomeViewModel._openSettingsCommand</qualifiedname>
+        <initializer>= default!</initializer>
+        <briefdescription>
+<para>Command to navigate to the Settings page. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" line="22" column="22" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1a3d873601bdd7548c3ec5fe9fed1eb7bf" prot="private" static="no" mutable="no">
+        <type>ICommand</type>
+        <definition>ICommand Client.Presentation.ViewModels.HomeViewModel._openGameCommand</definition>
+        <argsstring></argsstring>
+        <name>_openGameCommand</name>
+        <qualifiedname>Client.Presentation.ViewModels.HomeViewModel._openGameCommand</qualifiedname>
+        <initializer>= default!</initializer>
+        <briefdescription>
+<para>Command to start a new game if settings are properly configured. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" line="45" column="22" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1a59479a0beac4a4638cb1a7465966f015" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICommand</type>
+        <definition>ICommand Client.Presentation.ViewModels.HomeViewModel.OpenSettingsCommand</definition>
+        <argsstring></argsstring>
+        <name>OpenSettingsCommand</name>
+        <qualifiedname>Client.Presentation.ViewModels.HomeViewModel.OpenSettingsCommand</qualifiedname>
+        <briefdescription>
+<para>Gets the command to open the Settings page. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" line="27" column="21" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1aac6df3230bfc9c2456126db9ab4541d2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICommand</type>
+        <definition>ICommand Client.Presentation.ViewModels.HomeViewModel.OpenGameCommand</definition>
+        <argsstring></argsstring>
+        <name>OpenGameCommand</name>
+        <qualifiedname>Client.Presentation.ViewModels.HomeViewModel.OpenGameCommand</qualifiedname>
+        <briefdescription>
+<para>Gets the command to open the game if settings are valid. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" line="50" column="21" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1a5587fc1a90c22b172ff105fe60a03e89" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Presentation.ViewModels.HomeViewModel.OnOpenSettingsCommandExecuted</definition>
+        <argsstring>(object o)</argsstring>
+        <name>OnOpenSettingsCommandExecuted</name>
+        <qualifiedname>Client.Presentation.ViewModels.HomeViewModel.OnOpenSettingsCommandExecuted</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+<para>Executes the command to navigate to the Settings page. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>o</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional parameter for command execution.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" line="33" column="18" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1a6c2d446732244bc10605343dda985872" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Presentation.ViewModels.HomeViewModel.OnOpenGameCommandExecuted</definition>
+        <argsstring>(object o)</argsstring>
+        <name>OnOpenGameCommandExecuted</name>
+        <qualifiedname>Client.Presentation.ViewModels.HomeViewModel.OnOpenGameCommandExecuted</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+<para>Executes the command to start the game after validating the settings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>o</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional parameter for command execution.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" line="56" column="18" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" bodystart="56" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1af4a93036c8114edbd1da2677e5e91569" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client.Presentation.ViewModels.HomeViewModel.HomeViewModel</definition>
+        <argsstring>(INavigator navigator, ISettingsService settings)</argsstring>
+        <name>HomeViewModel</name>
+        <qualifiedname>Client.Presentation.ViewModels.HomeViewModel.HomeViewModel</qualifiedname>
+        <param>
+          <type><ref refid="interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator" kindref="compound">INavigator</ref></type>
+          <declname>navigator</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_i_settings_service" kindref="compound">ISettingsService</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model" kindref="compound">HomeViewModel</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>navigator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The navigator for page navigation.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The settings service for checking if the settings are properly configured.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ArgumentNullException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thrown when settings is null.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" line="75" column="12" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" bodystart="75" bodyend="78"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>ViewModel for the Home page, responsible for navigating to other views and checking if settings are properly configured before starting the game. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseViewModel</label>
+        <link refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Client.Presentation.ViewModels.HomeViewModel</label>
+        <link refid="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="3">
+        <label>ObservableObject</label>
+        <link refid="class_client_1_1_domain_1_1_services_1_1_observable_object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseViewModel</label>
+        <link refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Client.Presentation.ViewModels.HomeViewModel</label>
+        <link refid="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="3">
+        <label>ObservableObject</label>
+        <link refid="class_client_1_1_domain_1_1_services_1_1_observable_object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" line="13" column="7" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/HomeViewModel.cs" bodystart="14" bodyend="79"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1a3d873601bdd7548c3ec5fe9fed1eb7bf" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::HomeViewModel</scope><name>_openGameCommand</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1a6724502bf715a734a9cd1ad0c7a8cd59" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::HomeViewModel</scope><name>_openSettingsCommand</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1a182935c712670970fecb76692eeab884" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::HomeViewModel</scope><name>_settings</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model_1ae2d77d612c3b9a84fca5c04c647a35e8" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::HomeViewModel</scope><name>BaseViewModel</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1af4a93036c8114edbd1da2677e5e91569" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::HomeViewModel</scope><name>HomeViewModel</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model_1aaf1de7b88f2e3a1267d9353f6fc5f1c1" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::HomeViewModel</scope><name>Navigator</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1a6c2d446732244bc10605343dda985872" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::HomeViewModel</scope><name>OnOpenGameCommandExecuted</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1a5587fc1a90c22b172ff105fe60a03e89" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::HomeViewModel</scope><name>OnOpenSettingsCommandExecuted</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_observable_object_1af1409a7463d72be66764b71359c6cbed" prot="protected" virt="virtual"><scope>Client::Presentation::ViewModels::HomeViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1aac6df3230bfc9c2456126db9ab4541d2" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::HomeViewModel</scope><name>OpenGameCommand</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_home_view_model_1a59479a0beac4a4638cb1a7465966f015" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::HomeViewModel</scope><name>OpenSettingsCommand</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_observable_object_1af4dff471043a93a50e17ea4b5f51e6f7" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::HomeViewModel</scope><name>PropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

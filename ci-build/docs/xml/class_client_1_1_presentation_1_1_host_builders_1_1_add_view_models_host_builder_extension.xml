@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_presentation_1_1_host_builders_1_1_add_view_models_host_builder_extension" kind="class" language="C#" prot="package">
+    <compoundname>Client::Presentation::HostBuilders::AddViewModelsHostBuilderExtension</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_host_builders_1_1_add_view_models_host_builder_extension_1a38125462bb87c7f3d5c90a7a249e27fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IHostBuilder</type>
+        <definition>static IHostBuilder Client.Presentation.HostBuilders.AddViewModelsHostBuilderExtension.AddViewModels</definition>
+        <argsstring>(this IHostBuilder hostBuilder)</argsstring>
+        <name>AddViewModels</name>
+        <qualifiedname>Client.Presentation.HostBuilders.AddViewModelsHostBuilderExtension.AddViewModels</qualifiedname>
+        <param>
+          <type>this IHostBuilder</type>
+          <declname>hostBuilder</declname>
+        </param>
+        <briefdescription>
+<para>Adds view model services to the IHostBuilder for dependency injection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hostBuilder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The IHostBuilder instance to configure.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The configured IHostBuilder instance.</para>
+</simplesect>
+</para>
+<para>This method registers the following view models as scoped services: <itemizedlist>
+<listitem>
+<para>MainViewModel </para>
+</listitem>
+<listitem>
+<para>HomeViewModel </para>
+</listitem>
+<listitem>
+<para>SettingsViewModel </para>
+</listitem>
+<listitem>
+<para>GameViewModel </para>
+</listitem>
+</itemizedlist>
+These view models will be resolved from the dependency injection container when needed. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/HostBuilders/AddViewModelsHostBuilderExtension.cs" line="27" column="32" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/HostBuilders/AddViewModelsHostBuilderExtension.cs" bodystart="27" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Extension method for configuring view models in the IHostBuilder. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/HostBuilders/AddViewModelsHostBuilderExtension.cs" line="10" column="17" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/HostBuilders/AddViewModelsHostBuilderExtension.cs" bodystart="11" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_presentation_1_1_host_builders_1_1_add_view_models_host_builder_extension_1a38125462bb87c7f3d5c90a7a249e27fd" prot="public" virt="non-virtual"><scope>Client::Presentation::HostBuilders::AddViewModelsHostBuilderExtension</scope><name>AddViewModels</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

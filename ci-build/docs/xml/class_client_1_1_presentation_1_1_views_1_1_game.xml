@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_presentation_1_1_views_1_1_game" kind="class" language="C#" prot="public">
+    <compoundname>Client::Presentation::Views::Game</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_game_1ac340a146411b8548e106494a6dcee85e" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Image</type>
+        <definition>System Windows Controls Image Client.Presentation.Views.Game::Cell00</definition>
+        <argsstring></argsstring>
+        <name>Cell00</name>
+        <qualifiedname>Client.Presentation.Views.Game.Cell00</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" line="53" column="45" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_game_1a7c02f298042c48f32e320425a4cd8794" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Image</type>
+        <definition>System Windows Controls Image Client.Presentation.Views.Game::Cell01</definition>
+        <argsstring></argsstring>
+        <name>Cell01</name>
+        <qualifiedname>Client.Presentation.Views.Game.Cell01</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" line="61" column="45" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_game_1a29638ca2ac0968e1f61136ee6392f755" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Image</type>
+        <definition>System Windows Controls Image Client.Presentation.Views.Game::Cell02</definition>
+        <argsstring></argsstring>
+        <name>Cell02</name>
+        <qualifiedname>Client.Presentation.Views.Game.Cell02</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" line="69" column="45" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_game_1a44b135db46671515fc433cd0110cc37b" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Image</type>
+        <definition>System Windows Controls Image Client.Presentation.Views.Game::Cell10</definition>
+        <argsstring></argsstring>
+        <name>Cell10</name>
+        <qualifiedname>Client.Presentation.Views.Game.Cell10</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" line="77" column="45" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_game_1a1b765b8c6bd877515accbf411bded96c" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Image</type>
+        <definition>System Windows Controls Image Client.Presentation.Views.Game::Cell11</definition>
+        <argsstring></argsstring>
+        <name>Cell11</name>
+        <qualifiedname>Client.Presentation.Views.Game.Cell11</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" line="85" column="45" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_game_1aaf6b5477fd8a718c9f3667411bd346c6" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Image</type>
+        <definition>System Windows Controls Image Client.Presentation.Views.Game::Cell12</definition>
+        <argsstring></argsstring>
+        <name>Cell12</name>
+        <qualifiedname>Client.Presentation.Views.Game.Cell12</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" line="93" column="45" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_game_1af5df22dbc190aae7f7bb8a1320b3d1d3" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Image</type>
+        <definition>System Windows Controls Image Client.Presentation.Views.Game::Cell20</definition>
+        <argsstring></argsstring>
+        <name>Cell20</name>
+        <qualifiedname>Client.Presentation.Views.Game.Cell20</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" line="101" column="45" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_game_1afa0a4c6ab1525fa38fec6e95d11b0c64" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Image</type>
+        <definition>System Windows Controls Image Client.Presentation.Views.Game::Cell21</definition>
+        <argsstring></argsstring>
+        <name>Cell21</name>
+        <qualifiedname>Client.Presentation.Views.Game.Cell21</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" line="109" column="45" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_game_1a1adfba32c51010b5f22548c432ac7a37" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Image</type>
+        <definition>System Windows Controls Image Client.Presentation.Views.Game::Cell22</definition>
+        <argsstring></argsstring>
+        <name>Cell22</name>
+        <qualifiedname>Client.Presentation.Views.Game.Cell22</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" line="117" column="45" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_game_1af618f2ec75a91145bdfd8fc32ca80f69" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Client.Presentation.Views.Game::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>Client.Presentation.Views.Game._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" line="122" column="22" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_views_1_1_game_1a2cce08816dacea7fe5469cfd4987f85f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Presentation.Views.Game.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>Client.Presentation.Views.Game.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" line="129" column="21" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" bodystart="129" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_views_1_1_game_1a2cce08816dacea7fe5469cfd4987f85f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Presentation.Views.Game.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>Client.Presentation.Views.Game.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.i.cs" line="129" column="21" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.i.cs" bodystart="129" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_views_1_1_game_1aa576460c16acc8c51764785d7fd138bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client.Presentation.Views.Game.Game</definition>
+        <argsstring>()</argsstring>
+        <name>Game</name>
+        <qualifiedname>Client.Presentation.Views.Game.Game</qualifiedname>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_client_1_1_presentation_1_1_views_1_1_game" kindref="compound">Game</ref> class. This constructor sets up the user control and initializes its components. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Views/Game.xaml.cs" line="15" column="12" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Views/Game.xaml.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_views_1_1_game_1a1c344a7a6e32443d748a4cbc40b6b32e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. Client.Presentation.Views.Game.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>Client.Presentation.Views.Game.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" line="149" column="52" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" bodystart="149" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_views_1_1_game_1a1c344a7a6e32443d748a4cbc40b6b32e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. Client.Presentation.Views.Game.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>Client.Presentation.Views.Game.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.i.cs" line="149" column="52" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.i.cs" bodystart="149" bodyend="181"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="class_client_1_1_presentation_1_1_views_1_1_game" kindref="compound">Game</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents the <ref refid="class_client_1_1_presentation_1_1_views_1_1_game" kindref="compound">Game</ref> user control in the application. This control encapsulates the user interface and logic for displaying and interacting with the game. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Client.Presentation.Views.Game</label>
+        <link refid="class_client_1_1_presentation_1_1_views_1_1_game"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Client.Presentation.Views.Game</label>
+        <link refid="class_client_1_1_presentation_1_1_views_1_1_game"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Cell00</edgelabel>
+          <edgelabel>Cell01</edgelabel>
+          <edgelabel>Cell02</edgelabel>
+          <edgelabel>Cell10</edgelabel>
+          <edgelabel>Cell11</edgelabel>
+          <edgelabel>Cell12</edgelabel>
+          <edgelabel>Cell20</edgelabel>
+          <edgelabel>Cell21</edgelabel>
+          <edgelabel>Cell22</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+      <node id="5">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Game.g.cs" line="48" column="19" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Views/Game.xaml.cs" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1af618f2ec75a91145bdfd8fc32ca80f69" prot="private" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>_contentLoaded</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1ac340a146411b8548e106494a6dcee85e" prot="package" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>Cell00</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1a7c02f298042c48f32e320425a4cd8794" prot="package" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>Cell01</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1a29638ca2ac0968e1f61136ee6392f755" prot="package" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>Cell02</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1a44b135db46671515fc433cd0110cc37b" prot="package" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>Cell10</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1a1b765b8c6bd877515accbf411bded96c" prot="package" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>Cell11</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1aaf6b5477fd8a718c9f3667411bd346c6" prot="package" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>Cell12</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1af5df22dbc190aae7f7bb8a1320b3d1d3" prot="package" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>Cell20</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1afa0a4c6ab1525fa38fec6e95d11b0c64" prot="package" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>Cell21</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1a1adfba32c51010b5f22548c432ac7a37" prot="package" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>Cell22</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1a1c344a7a6e32443d748a4cbc40b6b32e" prot="private" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>Connect</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1a1c344a7a6e32443d748a4cbc40b6b32e" prot="private" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>Connect</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1aa576460c16acc8c51764785d7fd138bd" prot="public" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>Game</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1a2cce08816dacea7fe5469cfd4987f85f" prot="public" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>InitializeComponent</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_game_1a2cce08816dacea7fe5469cfd4987f85f" prot="public" virt="non-virtual"><scope>Client::Presentation::Views::Game</scope><name>InitializeComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

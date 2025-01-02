@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_e91154bac43b128d89a7d15df1418b45" kind="dir">
+    <compoundname>D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain</compoundname>
+    <innerdir refid="dir_ba9c80943fc24021e21e786375436075">D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/obj</innerdir>
+    <innerdir refid="dir_e541d708d24fbf22fc597be35103b926">D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/"/>
+  </compounddef>
+</doxygen>

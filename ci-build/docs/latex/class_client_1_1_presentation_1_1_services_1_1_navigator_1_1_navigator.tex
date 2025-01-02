@@ -1,0 +1,112 @@
+\doxysection{Client.\+Presentation.\+Services.\+Navigator.\+Navigator Class Reference}
+\hypertarget{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator}{}\label{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator}\index{Client.Presentation.Services.Navigator.Navigator@{Client.Presentation.Services.Navigator.Navigator}}
+
+
+The \doxylink{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator}{Navigator} class provides navigation functionality by managing the current view and allowing navigation to different view models.  
+
+
+Inheritance diagram for Client.\+Presentation.\+Services.\+Navigator.\+Navigator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.790698cm]{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_a92ab96174b8cef4d5e079ed29b19e2c1}{Navigator}} (Func$<$ Type, \mbox{\hyperlink{class_client_1_1_presentation_1_1_view_models_1_1_base_view_model}{Base\+View\+Model}} $>$ view\+Model\+Factory)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \doxylink{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator}{Navigator} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_af11c5fdd3152e99432ca7106111e3894}{Navigate\+To$<$ T $>$}} ()
+\begin{DoxyCompactList}\small\item\em Navigates to a new view model of the specified type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator}{Client.\+Presentation.\+Services.\+Navigator.\+INavigator}}}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_client_1_1_presentation_1_1_view_models_1_1_base_view_model}{Base\+View\+Model}} \mbox{\hyperlink{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_acd862192df08279ac07500334e1f2dca}{Current\+View}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the current view that is being displayed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator}{Client.\+Presentation.\+Services.\+Navigator.\+INavigator}}}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_observable_object}{Client.\+Domain.\+Services.\+Observable\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_observable_object_af1409a7463d72be66764b71359c6cbed}{On\+Property\+Changed}} (\mbox{[}Caller\+Member\+Name\mbox{]} string property="{}"{})
+\begin{DoxyCompactList}\small\item\em Raises the \doxylink{class_client_1_1_domain_1_1_services_1_1_observable_object_af4dff471043a93a50e17ea4b5f51e6f7}{Property\+Changed} event for the specified property. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Events inherited from \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_observable_object}{Client.\+Domain.\+Services.\+Observable\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+Property\+Changed\+Event\+Handler {\bfseries Property\+Changed}
+\begin{DoxyCompactList}\small\item\em Occurs when a property value changes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \doxylink{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator}{Navigator} class provides navigation functionality by managing the current view and allowing navigation to different view models. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_a92ab96174b8cef4d5e079ed29b19e2c1}\index{Client.Presentation.Services.Navigator.Navigator@{Client.Presentation.Services.Navigator.Navigator}!Navigator@{Navigator}}
+\index{Navigator@{Navigator}!Client.Presentation.Services.Navigator.Navigator@{Client.Presentation.Services.Navigator.Navigator}}
+\doxysubsubsection{\texorpdfstring{Navigator()}{Navigator()}}
+{\footnotesize\ttfamily \label{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_a92ab96174b8cef4d5e079ed29b19e2c1} 
+Client.\+Presentation.\+Services.\+Navigator.\+Navigator.\+Navigator (\begin{DoxyParamCaption}\item[{Func$<$ Type, \mbox{\hyperlink{class_client_1_1_presentation_1_1_view_models_1_1_base_view_model}{Base\+View\+Model}} $>$}]{view\+Model\+Factory}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initializes a new instance of the \doxylink{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator}{Navigator} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em view\+Model\+Factory} & A function that creates a new instance of a view model based on its type.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Thrown when the {\itshape view\+Model\+Factory}  is null.\\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_af11c5fdd3152e99432ca7106111e3894}\index{Client.Presentation.Services.Navigator.Navigator@{Client.Presentation.Services.Navigator.Navigator}!NavigateTo$<$ T $>$@{NavigateTo$<$ T $>$}}
+\index{NavigateTo$<$ T $>$@{NavigateTo$<$ T $>$}!Client.Presentation.Services.Navigator.Navigator@{Client.Presentation.Services.Navigator.Navigator}}
+\doxysubsubsection{\texorpdfstring{NavigateTo$<$ T $>$()}{NavigateTo< T >()}}
+{\footnotesize\ttfamily \label{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_af11c5fdd3152e99432ca7106111e3894} 
+void Client.\+Presentation.\+Services.\+Navigator.\+Navigator.\+Navigate\+To$<$ T $>$ (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Navigates to a new view model of the specified type. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & The type of the view model to navigate to.\\
+\hline
+\end{DoxyTemplParams}
+
+
+Implements \mbox{\hyperlink{interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator_afdcad15e7bfabdf9f2ff02f1529f59f7}{Client.\+Presentation.\+Services.\+Navigator.\+INavigator}}.
+
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em Base\+View\+Model}]\end{description}
+\end{Desc}
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_acd862192df08279ac07500334e1f2dca}\index{Client.Presentation.Services.Navigator.Navigator@{Client.Presentation.Services.Navigator.Navigator}!CurrentView@{CurrentView}}
+\index{CurrentView@{CurrentView}!Client.Presentation.Services.Navigator.Navigator@{Client.Presentation.Services.Navigator.Navigator}}
+\doxysubsubsection{\texorpdfstring{CurrentView}{CurrentView}}
+{\footnotesize\ttfamily \label{class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_acd862192df08279ac07500334e1f2dca} 
+\mbox{\hyperlink{class_client_1_1_presentation_1_1_view_models_1_1_base_view_model}{Base\+View\+Model}} Client.\+Presentation.\+Services.\+Navigator.\+Navigator.\+Current\+View\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets the current view that is being displayed. 
+
+
+
+Implements \mbox{\hyperlink{interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator_aea5f81e8129c65f0e53e963817cba947}{Client.\+Presentation.\+Services.\+Navigator.\+INavigator}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Subjects/7 semester/\+CSAD/\+New folder/csad2425ki405\+Hryn05/\+Lab3-\/4/\+Client/\+Client/\+Services/\+Navigator/Navigator.\+cs\end{DoxyCompactItemize}

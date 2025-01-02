@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service" kind="interface" language="C#" prot="public">
+    <compoundname>Client::Domain::Services::ServerService::IGameService</compoundname>
+    <derivedcompoundref refid="class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service" prot="public" virt="non-virtual">Client.Domain.Services.GameService.GameService</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_1ab1c99ee1537a613d1ed7c96618817292" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Domain.Services.ServerService.IGameService.InvokeGameCommand</definition>
+        <argsstring>(GameCommand command)</argsstring>
+        <name>InvokeGameCommand</name>
+        <qualifiedname>Client.Domain.Services.ServerService.IGameService.InvokeGameCommand</qualifiedname>
+        <reimplementedby refid="class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service_1ae6ca042ca0cb4359ecad19c2081ba381">InvokeGameCommand</reimplementedby>
+        <param>
+          <type><ref refid="namespace_client_1_1_domain_1_1_services_1_1_server_service_1add704b4a243982a7e74d21abfe8819a0" kindref="member">GameCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+<para>Invokes a specific game command. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>command</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The game command to invoke.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameService/IGameService.cs" line="15" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_1ac63bd7b53a3c517eba0f8005f164593d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state" kindref="compound">GameState</ref></type>
+        <definition>GameState Client.Domain.Services.ServerService.IGameService.GetGameState</definition>
+        <argsstring>()</argsstring>
+        <name>GetGameState</name>
+        <qualifiedname>Client.Domain.Services.ServerService.IGameService.GetGameState</qualifiedname>
+        <reimplementedby refid="class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service_1a68e4f34a2ee73c766966814d3903f5d7">GetGameState</reimplementedby>
+        <briefdescription>
+<para>Retrieves the current state of the game. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The current GameState.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameService/IGameService.cs" line="21" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_1a3ceaa9f73133d9db9a0c25efcebb6868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SerialPort</type>
+        <definition>SerialPort Client.Domain.Services.ServerService.IGameService.GetServerPort</definition>
+        <argsstring>()</argsstring>
+        <name>GetServerPort</name>
+        <qualifiedname>Client.Domain.Services.ServerService.IGameService.GetServerPort</qualifiedname>
+        <reimplementedby refid="class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service_1a56e1f4f8002998bca75c06bee00e2868">GetServerPort</reimplementedby>
+        <briefdescription>
+<para>Retrieves the server&apos;s serial port settings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The SerialPort object for server communication.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameService/IGameService.cs" line="27" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_1a5b1ab18a6f496197490e7f16093707a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state" kindref="compound">GameState</ref></type>
+        <definition>GameState Client.Domain.Services.ServerService.IGameService.Move</definition>
+        <argsstring>(int row, int column)</argsstring>
+        <name>Move</name>
+        <qualifiedname>Client.Domain.Services.ServerService.IGameService.Move</qualifiedname>
+        <reimplementedby refid="class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service_1a3099fbeefe186021923e2d2b5a5cdc44">Move</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+<para>Makes a move in the game at the specified board position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The row index of the move.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>column</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The column index of the move.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The updated GameState.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameService/IGameService.cs" line="35" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_1a8a608773e601692b36cd048515b0f0f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool?</type>
+        <definition>bool? Client.Domain.Services.ServerService.IGameService.IsWinner</definition>
+        <argsstring>()</argsstring>
+        <name>IsWinner</name>
+        <qualifiedname>Client.Domain.Services.ServerService.IGameService.IsWinner</qualifiedname>
+        <reimplementedby refid="class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service_1ab1f028b57bad4adee771c1bb25aa8581">IsWinner</reimplementedby>
+        <briefdescription>
+<para>Determines if there is a winner in the game. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A nullable boolean indicating the winning side: <computeroutput>true</computeroutput> for Player X, <computeroutput>false</computeroutput> for Player O, or <computeroutput>null</computeroutput> for no winner. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameService/IGameService.cs" line="44" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_1a3e6559185f4abf07b6150c0069171b3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Domain.Services.ServerService.IGameService.SendRequestForAIMove</definition>
+        <argsstring>()</argsstring>
+        <name>SendRequestForAIMove</name>
+        <qualifiedname>Client.Domain.Services.ServerService.IGameService.SendRequestForAIMove</qualifiedname>
+        <reimplementedby refid="class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service_1a81a2f3bea901039629108c30f62c3433">SendRequestForAIMove</reimplementedby>
+        <briefdescription>
+<para>Sends a request for the AI to make a move. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameService/IGameService.cs" line="49" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_1aa6328e9d75f2a68f382e7d85d72ed774" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Domain.Services.ServerService.IGameService.AddReceivedEventHandler</definition>
+        <argsstring>(SerialDataReceivedEventHandler handler)</argsstring>
+        <name>AddReceivedEventHandler</name>
+        <qualifiedname>Client.Domain.Services.ServerService.IGameService.AddReceivedEventHandler</qualifiedname>
+        <reimplementedby refid="class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service_1aac8912a53a6ad7f22cfa66c4964cef82">AddReceivedEventHandler</reimplementedby>
+        <param>
+          <type>SerialDataReceivedEventHandler</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+<para>Adds a handler for the event when serial data is received. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>handler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The event handler for serial data received.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameService/IGameService.cs" line="55" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents the interface for the game service, defining the contract for game-related operations. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Client.Domain.Services.ServerService.IGameService</label>
+        <link refid="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service"/>
+      </node>
+      <node id="2">
+        <label>Client.Domain.Services.GameService.GameService</label>
+        <link refid="class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameService/IGameService.cs" line="9" column="18" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameService/IGameService.cs" bodystart="10" bodyend="56"/>
+    <listofallmembers>
+      <member refid="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_1aa6328e9d75f2a68f382e7d85d72ed774" prot="public" virt="non-virtual"><scope>Client::Domain::Services::ServerService::IGameService</scope><name>AddReceivedEventHandler</name></member>
+      <member refid="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_1ac63bd7b53a3c517eba0f8005f164593d" prot="public" virt="non-virtual"><scope>Client::Domain::Services::ServerService::IGameService</scope><name>GetGameState</name></member>
+      <member refid="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_1a3ceaa9f73133d9db9a0c25efcebb6868" prot="public" virt="non-virtual"><scope>Client::Domain::Services::ServerService::IGameService</scope><name>GetServerPort</name></member>
+      <member refid="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_1ab1c99ee1537a613d1ed7c96618817292" prot="public" virt="non-virtual"><scope>Client::Domain::Services::ServerService::IGameService</scope><name>InvokeGameCommand</name></member>
+      <member refid="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_1a8a608773e601692b36cd048515b0f0f1" prot="public" virt="non-virtual"><scope>Client::Domain::Services::ServerService::IGameService</scope><name>IsWinner</name></member>
+      <member refid="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_1a5b1ab18a6f496197490e7f16093707a4" prot="public" virt="non-virtual"><scope>Client::Domain::Services::ServerService::IGameService</scope><name>Move</name></member>
+      <member refid="interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_1a3e6559185f4abf07b6150c0069171b3e" prot="public" virt="non-virtual"><scope>Client::Domain::Services::ServerService::IGameService</scope><name>SendRequestForAIMove</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_client_1_1_domain_1_1_services_1_1_game_service" kind="namespace" language="C#">
+    <compoundname>Client::Domain::Services::GameService</compoundname>
+    <innerclass refid="class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service" prot="public">Client::Domain::Services::GameService::GameService</innerclass>
+    <innerclass refid="struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state" prot="public">Client::Domain::Services::GameService::GameState</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_client_1_1_domain_1_1_services_1_1_game_service_1a56791edfaff87576546dcf34241a21c2" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GameStatus</name>
+        <qualifiedname>Client.Domain.Services.GameService.GameStatus</qualifiedname>
+        <enumvalue id="namespace_client_1_1_domain_1_1_services_1_1_game_service_1a56791edfaff87576546dcf34241a21c2a7ee7defde6dc3a1d4a4a891b3894e790" prot="public">
+          <name>Ongoing</name>
+          <briefdescription>
+<para>The game is ongoing. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_client_1_1_domain_1_1_services_1_1_game_service_1a56791edfaff87576546dcf34241a21c2a2d03c2d5a7ec65ef4619e0582c272ec2" prot="public">
+          <name>Draw</name>
+          <briefdescription>
+<para>The game ended in a draw. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_client_1_1_domain_1_1_services_1_1_game_service_1a56791edfaff87576546dcf34241a21c2a8e1dda5f22e44c5b05715e6c5bec84ad" prot="public">
+          <name>WonPlayerX</name>
+          <briefdescription>
+<para>Player X won the game. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_client_1_1_domain_1_1_services_1_1_game_service_1a56791edfaff87576546dcf34241a21c2a880611a57e01d2ec467e27eadcac87e5" prot="public">
+          <name>WonPlayerO</name>
+          <briefdescription>
+<para>Player O won the game. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Represents the possible statuses of a game. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameService/GameStatus.cs" line="6" column="7" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameService/GameStatus.cs" bodystart="7" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameService/GameService.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

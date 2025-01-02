@@ -1,0 +1,145 @@
+\doxysection{Client.\+Domain.\+Services.\+Game\+Service.\+Game\+State Struct Reference}
+\hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{}\label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}\index{Client.Domain.Services.GameService.GameState@{Client.Domain.Services.GameService.GameState}}
+
+
+Represents the state of a game, including the board configuration, game mode, status, and player information.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_abe6ed1c4b7b9e06f48b7d6a125817620}\label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_abe6ed1c4b7b9e06f48b7d6a125817620} 
+{\bfseries Game\+State} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \doxylink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State} struct with an empty board and default values for the mode and status. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_af59fe67781ecbe6300476013f3a081ca}{Get\+Server\+Board\+String}} ()
+\begin{DoxyCompactList}\small\item\em Converts the game board into a server-\/compatible string representation. Each cell is encoded as a combination of row, column, and value. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a3ee04f8ab512c9ba5cbb7fc08f066a2b}{Equals}} (\mbox{[}Not\+Null\+When(true)\mbox{]} object? obj)
+\begin{DoxyCompactList}\small\item\em Determines whether the current game state is equal to another object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_ac99a511ca8b982b19f2cee5747cd442c}{operator==}} (\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}}? left, \mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}}? right)
+\begin{DoxyCompactList}\small\item\em Determines whether two \doxylink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State} instances are equal. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a36a677f840584849519247fcb21f9b9d}{operator!=}} (\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}}? left, \mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}}? right)
+\begin{DoxyCompactList}\small\item\em Determines whether two \doxylink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State} instances are not equal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a50061b602461136f9eddc44f847e4712}\label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a50061b602461136f9eddc44f847e4712} 
+bool?\mbox{[},\mbox{]} {\bfseries Board}
+\begin{DoxyCompactList}\small\item\em The game board represented as a 2D array of nullable boolean values. True represents \textquotesingle{}X\textquotesingle{}, false represents \textquotesingle{}O\textquotesingle{}, and null represents an empty cell. \end{DoxyCompactList}\item 
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_aaa5ec9172b0486d0b0a1f0b74f6e5d0e}\label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_aaa5ec9172b0486d0b0a1f0b74f6e5d0e} 
+\mbox{\hyperlink{namespace_client_1_1_domain_1_1_services_1_1_settings_1_1_game_settings_service_a8fc00b2e11a23adfb52c6337982b818a}{Game\+Mode}} {\bfseries Mode}
+\begin{DoxyCompactList}\small\item\em The mode of the game (e.\+g., single-\/player, multiplayer). \end{DoxyCompactList}\item 
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a17de975caf657e4c3ecc585b857fd018}\label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a17de975caf657e4c3ecc585b857fd018} 
+\mbox{\hyperlink{namespace_client_1_1_domain_1_1_services_1_1_game_service_a56791edfaff87576546dcf34241a21c2}{Game\+Status}} {\bfseries Status}
+\begin{DoxyCompactList}\small\item\em The current status of the game (e.\+g., ongoing, finished). \end{DoxyCompactList}\item 
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_ade3b99ac8c69c757590cbac50e934027}\label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_ade3b99ac8c69c757590cbac50e934027} 
+bool? {\bfseries Man\+Player}
+\begin{DoxyCompactList}\small\item\em Specifies whether the human player is represented by \textquotesingle{}X\textquotesingle{} (true) or \textquotesingle{}O\textquotesingle{} (false), or null if not applicable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_aa43db2588111c66c43e283c24ee15b13}\label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_aa43db2588111c66c43e283c24ee15b13} 
+const char {\bfseries Char\+CellX} = \textquotesingle{}x\textquotesingle{}
+\begin{DoxyCompactList}\small\item\em Character representation for the \textquotesingle{}X\textquotesingle{} cell. \end{DoxyCompactList}\item 
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_ac0f5bb2036c05237c3a4b7570853e8b7}\label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_ac0f5bb2036c05237c3a4b7570853e8b7} 
+const char {\bfseries Char\+CellO} = \textquotesingle{}o\textquotesingle{}
+\begin{DoxyCompactList}\small\item\em Character representation for the \textquotesingle{}O\textquotesingle{} cell. \end{DoxyCompactList}\item 
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a199f0fcff4a9db333c5975d4878617f0}\label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a199f0fcff4a9db333c5975d4878617f0} 
+const char {\bfseries Char\+Empty\+Cell} = \textquotesingle{} \textquotesingle{}
+\begin{DoxyCompactList}\small\item\em Character representation for an empty cell. \end{DoxyCompactList}\item 
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a3016713805fb038ddd7d3b365f2cd9c5}\label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a3016713805fb038ddd7d3b365f2cd9c5} 
+const int {\bfseries Cell\+Dimension\+Size} = 3
+\begin{DoxyCompactList}\small\item\em The dimension size of the game board (e.\+g., 3x3 grid). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_aaf0fc72cb4823c73c63d67464904dfbc}\label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_aaf0fc72cb4823c73c63d67464904dfbc} 
+int {\bfseries XNumber}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the number of \textquotesingle{}X\textquotesingle{} cells on the board. \end{DoxyCompactList}\item 
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a7edf2ebd0b5f62db24aae3e7c09d8d00}\label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a7edf2ebd0b5f62db24aae3e7c09d8d00} 
+int {\bfseries ONumber}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the number of \textquotesingle{}O\textquotesingle{} cells on the board. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the state of a game, including the board configuration, game mode, status, and player information. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a3ee04f8ab512c9ba5cbb7fc08f066a2b}\index{Client.Domain.Services.GameService.GameState@{Client.Domain.Services.GameService.GameState}!Equals@{Equals}}
+\index{Equals@{Equals}!Client.Domain.Services.GameService.GameState@{Client.Domain.Services.GameService.GameState}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily \label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a3ee04f8ab512c9ba5cbb7fc08f066a2b} 
+override bool Client.\+Domain.\+Services.\+Game\+Service.\+Game\+State.\+Equals (\begin{DoxyParamCaption}\item[{\mbox{[}\+Not\+Null\+When(true)\mbox{]} object?}]{obj}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Determines whether the current game state is equal to another object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & The object to compare with the current game state.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the current game state is equal to the specified object; otherwise, false.
+\end{DoxyReturn}
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_af59fe67781ecbe6300476013f3a081ca}\index{Client.Domain.Services.GameService.GameState@{Client.Domain.Services.GameService.GameState}!GetServerBoardString@{GetServerBoardString}}
+\index{GetServerBoardString@{GetServerBoardString}!Client.Domain.Services.GameService.GameState@{Client.Domain.Services.GameService.GameState}}
+\doxysubsubsection{\texorpdfstring{GetServerBoardString()}{GetServerBoardString()}}
+{\footnotesize\ttfamily \label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_af59fe67781ecbe6300476013f3a081ca} 
+string Client.\+Domain.\+Services.\+Game\+Service.\+Game\+State.\+Get\+Server\+Board\+String (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Converts the game board into a server-\/compatible string representation. Each cell is encoded as a combination of row, column, and value. 
+
+\begin{DoxyReturn}{Returns}
+A string representing the current state of the board for the server.
+\end{DoxyReturn}
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a36a677f840584849519247fcb21f9b9d}\index{Client.Domain.Services.GameService.GameState@{Client.Domain.Services.GameService.GameState}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!Client.Domain.Services.GameService.GameState@{Client.Domain.Services.GameService.GameState}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily \label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_a36a677f840584849519247fcb21f9b9d} 
+static bool Client.\+Domain.\+Services.\+Game\+Service.\+Game\+State.\+operator!= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}}?}]{left}{, }\item[{\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}}?}]{right}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Determines whether two \doxylink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State} instances are not equal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em left} & The first game state.\\
+\hline
+{\em right} & The second game state.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the two game states are not equal; otherwise, false.
+\end{DoxyReturn}
+\Hypertarget{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_ac99a511ca8b982b19f2cee5747cd442c}\index{Client.Domain.Services.GameService.GameState@{Client.Domain.Services.GameService.GameState}!operator==@{operator==}}
+\index{operator==@{operator==}!Client.Domain.Services.GameService.GameState@{Client.Domain.Services.GameService.GameState}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily \label{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state_ac99a511ca8b982b19f2cee5747cd442c} 
+static bool Client.\+Domain.\+Services.\+Game\+Service.\+Game\+State.\+operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}}?}]{left}{, }\item[{\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}}?}]{right}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Determines whether two \doxylink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State} instances are equal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em left} & The first game state.\\
+\hline
+{\em right} & The second game state.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the two game states are equal; otherwise, false.
+\end{DoxyReturn}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Subjects/7 semester/\+CSAD/\+New folder/csad2425ki405\+Hryn05/\+Lab3-\/4/\+Client/\+Client.\+Domain/\+Services/\+Game\+Service/Game\+State.\+cs\end{DoxyCompactItemize}

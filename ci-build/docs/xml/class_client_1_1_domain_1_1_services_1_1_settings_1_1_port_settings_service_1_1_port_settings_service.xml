@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service" kind="class" language="C#" prot="public">
+    <compoundname>Client::Domain::Services::Settings::PortSettingsService::PortSettingsService</compoundname>
+    <basecompoundref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service" prot="public" virt="non-virtual">Client.Domain.Services.Settings.PortSettingsService.IPortSettingsService</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1adb6236fe9394606dd5340fcdc2765e01" prot="private" static="no" mutable="no">
+        <type>readonly IEnumerable&lt; int &gt;</type>
+        <definition>readonly IEnumerable&lt;int&gt; Client.Domain.Services.Settings.PortSettingsService.PortSettingsService._portSpeeds</definition>
+        <argsstring></argsstring>
+        <name>_portSpeeds</name>
+        <qualifiedname>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService._portSpeeds</qualifiedname>
+        <initializer>= new List&lt;int&gt;() { 4800, 9600, 19200, 38400, 57600 }</initializer>
+        <briefdescription>
+<para>A collection of supported baud rates for serial communication. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" line="13" column="34" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a7c37edfc19b050a773e85bedf7ce6b0c" prot="private" static="no" mutable="no">
+        <type>SerialPort</type>
+        <definition>SerialPort Client.Domain.Services.Settings.PortSettingsService.PortSettingsService._connectedPort</definition>
+        <argsstring></argsstring>
+        <name>_connectedPort</name>
+        <qualifiedname>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService._connectedPort</qualifiedname>
+        <briefdescription>
+<para>The currently connected serial port. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" line="21" column="24" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a098c93c30275de9f27c3104e02af26a4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Client.Domain.Services.Settings.PortSettingsService.PortSettingsService._portSpeed</definition>
+        <argsstring></argsstring>
+        <name>_portSpeed</name>
+        <qualifiedname>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService._portSpeed</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The current baud rate of the serial port. Default is 0. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" line="26" column="17" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1ab75861b6797d5d411b3522e3205787e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>SerialPort</type>
+        <definition>SerialPort Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.ConnectedPort</definition>
+        <argsstring></argsstring>
+        <name>ConnectedPort</name>
+        <qualifiedname>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.ConnectedPort</qualifiedname>
+        <reimplements refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1a025a4d3ab102c03d866d2fb7e636ea12">ConnectedPort</reimplements>
+        <briefdescription>
+<para><para>Gets the currently connected serial port.</para>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" line="16" column="23" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1aef40c2ba99e6c9cef60943b9904db71e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.PortSettingsService</definition>
+        <argsstring>()</argsstring>
+        <name>PortSettingsService</name>
+        <qualifiedname>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.PortSettingsService</qualifiedname>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service" kindref="compound">PortSettingsService</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" line="31" column="12" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" bodystart="31" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a00b5ce300ced366e5160fe04f0c940e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.ChangePort</definition>
+        <argsstring>(string portName)</argsstring>
+        <name>ChangePort</name>
+        <qualifiedname>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.ChangePort</qualifiedname>
+        <reimplements refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1ae1d5369dd0b536e4be26d17fa0df445a">ChangePort</reimplements>
+        <param>
+          <type>string</type>
+          <declname>portName</declname>
+        </param>
+        <briefdescription>
+<para><para>Changes the serial port to the specified port name.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>portName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the new serial port.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ArgumentNullException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thrown if <emphasis>portName</emphasis>  is null or empty.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" line="40" column="17" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" bodystart="40" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a16883ad6714cfec8191af9c5ee77e160" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.ChangePortSpeed</definition>
+        <argsstring>(int portSpeed)</argsstring>
+        <name>ChangePortSpeed</name>
+        <qualifiedname>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.ChangePortSpeed</qualifiedname>
+        <reimplements refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1ab3b97ad6950a16b245ebcb64756a3f1d">ChangePortSpeed</reimplements>
+        <param>
+          <type>int</type>
+          <declname>portSpeed</declname>
+        </param>
+        <briefdescription>
+<para><para>Changes the baud rate of the serial port to the specified speed.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>portSpeed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new baud rate.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ArgumentOutOfRangeException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thrown if <emphasis>portSpeed</emphasis>  is less than or equal to 0.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" line="53" column="17" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" bodystart="53" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1abbebcae596b94499c72718255806306e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; string &gt;</type>
+        <definition>IEnumerable&lt; string &gt; Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.GetAvailablePorts</definition>
+        <argsstring>()</argsstring>
+        <name>GetAvailablePorts</name>
+        <qualifiedname>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.GetAvailablePorts</qualifiedname>
+        <reimplements refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1a30a51a471d616d6401f067ed5604051b">GetAvailablePorts</reimplements>
+        <briefdescription>
+<para><para>Gets the names of all available serial ports on the system.</para>
+<para><simplesect kind="return"><para>An enumerable collection of available port names as strings.</para>
+</simplesect>
+</para>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" line="63" column="24" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a1abb322e06d58bde483e22ea522d8180" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; int &gt;</type>
+        <definition>IEnumerable&lt; int &gt; Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.GetAvailablePortSpeeds</definition>
+        <argsstring>()</argsstring>
+        <name>GetAvailablePortSpeeds</name>
+        <qualifiedname>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.GetAvailablePortSpeeds</qualifiedname>
+        <reimplements refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1a9b7fc28ca80c15fb60dbcee8118f5fb3">GetAvailablePortSpeeds</reimplements>
+        <briefdescription>
+<para><para>Gets a list of supported baud rates for the serial port.</para>
+<para><simplesect kind="return"><para>An enumerable collection of integers representing supported baud rates.</para>
+</simplesect>
+</para>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" line="69" column="24" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a8b37aa608a1c509f3774e501ace18a94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.GetPortName</definition>
+        <argsstring>()</argsstring>
+        <name>GetPortName</name>
+        <qualifiedname>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.GetPortName</qualifiedname>
+        <reimplements refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1a574dde3a4b3f056102cd9c099dd65b2e">GetPortName</reimplements>
+        <briefdescription>
+<para><para>Gets the name of the currently configured serial port.</para>
+<para><simplesect kind="return"><para>The name of the serial port as a string.</para>
+</simplesect>
+</para>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" line="75" column="19" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a1e018e75844b019cef7652fed709e462" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.GetPortSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>GetPortSpeed</name>
+        <qualifiedname>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.GetPortSpeed</qualifiedname>
+        <reimplements refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1a31e08bd12fc7748389d05d311d9661d0">GetPortSpeed</reimplements>
+        <briefdescription>
+<para><para>Gets the current baud rate of the serial port.</para>
+<para><simplesect kind="return"><para>The baud rate as an integer.</para>
+</simplesect>
+</para>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" line="81" column="16" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a5a1bdfbf4a44e316e85df0b198eb8385" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.IsAllSettingSet</definition>
+        <argsstring>()</argsstring>
+        <name>IsAllSettingSet</name>
+        <qualifiedname>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.IsAllSettingSet</qualifiedname>
+        <reimplements refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1ad896f301dffb4f471a33c0b51dee34d1">IsAllSettingSet</reimplements>
+        <briefdescription>
+<para><para>Determines whether all required port settings have been configured.</para>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput> if all settings are configured; otherwise, <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" line="87" column="17" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1abb23d6ca5b395fd5e1a0ef16d8756dce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.AddSerialDataReceivedEventHandler</definition>
+        <argsstring>(SerialDataReceivedEventHandler handler)</argsstring>
+        <name>AddSerialDataReceivedEventHandler</name>
+        <qualifiedname>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService.AddSerialDataReceivedEventHandler</qualifiedname>
+        <reimplements refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1a7a988824536b1aaccb4f938e21626f0a">AddSerialDataReceivedEventHandler</reimplements>
+        <param>
+          <type>SerialDataReceivedEventHandler</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+<para><para>Adds an event handler for the serial port&apos;s <computeroutput>DataReceived</computeroutput> event.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>handler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The event handler to add.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ArgumentNullException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thrown if <emphasis>handler</emphasis>  is null.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" line="93" column="17" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" bodystart="93" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Implementation of <ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service" kindref="compound">IPortSettingsService</ref> for managing serial port settings. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService</label>
+        <link refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPortSettingsService</label>
+        <link refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Client.Domain.Services.Settings.PortSettingsService.PortSettingsService</label>
+        <link refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPortSettingsService</label>
+        <link refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" line="8" column="7" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/PortSettingsService.cs" bodystart="9" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a7c37edfc19b050a773e85bedf7ce6b0c" prot="private" virt="non-virtual"><scope>Client::Domain::Services::Settings::PortSettingsService::PortSettingsService</scope><name>_connectedPort</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a098c93c30275de9f27c3104e02af26a4" prot="private" virt="non-virtual"><scope>Client::Domain::Services::Settings::PortSettingsService::PortSettingsService</scope><name>_portSpeed</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1adb6236fe9394606dd5340fcdc2765e01" prot="private" virt="non-virtual"><scope>Client::Domain::Services::Settings::PortSettingsService::PortSettingsService</scope><name>_portSpeeds</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1abb23d6ca5b395fd5e1a0ef16d8756dce" prot="public" virt="non-virtual"><scope>Client::Domain::Services::Settings::PortSettingsService::PortSettingsService</scope><name>AddSerialDataReceivedEventHandler</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a00b5ce300ced366e5160fe04f0c940e3" prot="public" virt="non-virtual"><scope>Client::Domain::Services::Settings::PortSettingsService::PortSettingsService</scope><name>ChangePort</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a16883ad6714cfec8191af9c5ee77e160" prot="public" virt="non-virtual"><scope>Client::Domain::Services::Settings::PortSettingsService::PortSettingsService</scope><name>ChangePortSpeed</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1ab75861b6797d5d411b3522e3205787e9" prot="public" virt="non-virtual"><scope>Client::Domain::Services::Settings::PortSettingsService::PortSettingsService</scope><name>ConnectedPort</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1abbebcae596b94499c72718255806306e" prot="public" virt="non-virtual"><scope>Client::Domain::Services::Settings::PortSettingsService::PortSettingsService</scope><name>GetAvailablePorts</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a1abb322e06d58bde483e22ea522d8180" prot="public" virt="non-virtual"><scope>Client::Domain::Services::Settings::PortSettingsService::PortSettingsService</scope><name>GetAvailablePortSpeeds</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a8b37aa608a1c509f3774e501ace18a94" prot="public" virt="non-virtual"><scope>Client::Domain::Services::Settings::PortSettingsService::PortSettingsService</scope><name>GetPortName</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a1e018e75844b019cef7652fed709e462" prot="public" virt="non-virtual"><scope>Client::Domain::Services::Settings::PortSettingsService::PortSettingsService</scope><name>GetPortSpeed</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1a5a1bdfbf4a44e316e85df0b198eb8385" prot="public" virt="non-virtual"><scope>Client::Domain::Services::Settings::PortSettingsService::PortSettingsService</scope><name>IsAllSettingSet</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_port_settings_service_1aef40c2ba99e6c9cef60943b9904db71e" prot="public" virt="non-virtual"><scope>Client::Domain::Services::Settings::PortSettingsService::PortSettingsService</scope><name>PortSettingsService</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_cb58ddbec36c079410f2dc619ec0a7ba" kind="dir">
+    <compoundname>D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/HostBuilders</compoundname>
+    <innerfile refid="_add_configuration_host_builder_extensions_8cs">AddConfigurationHostBuilderExtensions.cs</innerfile>
+    <innerfile refid="_add_services_host_builder_extensions_8cs">AddServicesHostBuilderExtensions.cs</innerfile>
+    <innerfile refid="_add_view_models_host_builder_extension_8cs">AddViewModelsHostBuilderExtension.cs</innerfile>
+    <innerfile refid="_add_views_host_builder_extension_8cs">AddViewsHostBuilderExtension.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/HostBuilders/"/>
+  </compounddef>
+</doxygen>

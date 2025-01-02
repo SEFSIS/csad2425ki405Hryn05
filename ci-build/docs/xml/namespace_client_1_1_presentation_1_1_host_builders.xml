@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_client_1_1_presentation_1_1_host_builders" kind="namespace" language="C#">
+    <compoundname>Client::Presentation::HostBuilders</compoundname>
+    <innerclass refid="class_client_1_1_presentation_1_1_host_builders_1_1_add_configuration_host_builder_extensions" prot="package">Client::Presentation::HostBuilders::AddConfigurationHostBuilderExtensions</innerclass>
+    <innerclass refid="class_client_1_1_presentation_1_1_host_builders_1_1_add_services_host_builder_extensions" prot="package">Client::Presentation::HostBuilders::AddServicesHostBuilderExtensions</innerclass>
+    <innerclass refid="class_client_1_1_presentation_1_1_host_builders_1_1_add_view_models_host_builder_extension" prot="package">Client::Presentation::HostBuilders::AddViewModelsHostBuilderExtension</innerclass>
+    <innerclass refid="class_client_1_1_presentation_1_1_host_builders_1_1_add_views_host_builder_extension" prot="package">Client::Presentation::HostBuilders::AddViewsHostBuilderExtension</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/HostBuilders/AddConfigurationHostBuilderExtensions.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

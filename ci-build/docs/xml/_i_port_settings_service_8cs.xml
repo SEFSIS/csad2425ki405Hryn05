@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_i_port_settings_service_8cs" kind="file" language="C#">
+    <compoundname>IPortSettingsService.cs</compoundname>
+    <innerclass refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service" prot="public">Client::Domain::Services::Settings::PortSettingsService::IPortSettingsService</innerclass>
+    <innernamespace refid="namespace_client">Client</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain">Client::Domain</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain_1_1_services">Client::Domain::Services</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain_1_1_services_1_1_settings">Client::Domain::Services::Settings</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service">Client::Domain::Services::Settings::PortSettingsService</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.IO.Ports;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service" kindref="compound">Client.Domain.Services.Settings.PortSettingsService</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service" kindref="compound">IPortSettingsService</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>SerialPort<sp/><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1a025a4d3ab102c03d866d2fb7e636ea12" kindref="member">ConnectedPort</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IEnumerable&lt;string&gt;<sp/><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1a30a51a471d616d6401f067ed5604051b" kindref="member">GetAvailablePorts</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IEnumerable&lt;int&gt;<sp/><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1a9b7fc28ca80c15fb60dbcee8118f5fb3" kindref="member">GetAvailablePortSpeeds</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1a574dde3a4b3f056102cd9c099dd65b2e" kindref="member">GetPortName</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1a31e08bd12fc7748389d05d311d9661d0" kindref="member">GetPortSpeed</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1ae1d5369dd0b536e4be26d17fa0df445a" kindref="member">ChangePort</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>portName);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1ab3b97ad6950a16b245ebcb64756a3f1d" kindref="member">ChangePortSpeed</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>portSpeed);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1ad896f301dffb4f471a33c0b51dee34d1" kindref="member">IsAllSettingSet</ref>();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service_1a7a988824536b1aaccb4f938e21626f0a" kindref="member">AddSerialDataReceivedEventHandler</ref>(SerialDataReceivedEventHandler<sp/>handler);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/PortSettingsService/IPortSettingsService.cs"/>
+  </compounddef>
+</doxygen>

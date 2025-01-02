@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_game_mode_8cs" kind="file" language="C#">
+    <compoundname>GameMode.cs</compoundname>
+    <innernamespace refid="namespace_client">Client</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain">Client::Domain</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain_1_1_services">Client::Domain::Services</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain_1_1_services_1_1_settings">Client::Domain::Services::Settings</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain_1_1_services_1_1_settings_1_1_game_settings_service">Client::Domain::Services::Settings::GameSettingsService</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_client_1_1_domain_1_1_services_1_1_settings" refkind="compound"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_client_1_1_domain_1_1_services_1_1_settings_1_1_game_settings_service" kindref="compound">Client.Domain.Services.Settings.GameSettingsService</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_client_1_1_domain_1_1_services_1_1_settings_1_1_game_settings_service_1a8fc00b2e11a23adfb52c6337982b818a" kindref="member">GameMode</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_client_1_1_domain_1_1_services_1_1_settings_1_1_game_settings_service_1a8fc00b2e11a23adfb52c6337982b818aa6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref>,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_client_1_1_domain_1_1_services_1_1_settings_1_1_game_settings_service_1a8fc00b2e11a23adfb52c6337982b818aaa5cbbc93dbf239b8b0d5b723da34c04c" kindref="member">ManvsMan</ref>,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_client_1_1_domain_1_1_services_1_1_settings_1_1_game_settings_service_1a8fc00b2e11a23adfb52c6337982b818aaa52aff67ad6af77150cea96be9eae98a" kindref="member">ManvsAI</ref>,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_client_1_1_domain_1_1_services_1_1_settings_1_1_game_settings_service_1a8fc00b2e11a23adfb52c6337982b818aacfe728be6cfc0749643831dd13f58bc5" kindref="member">AIvsAI</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/GameSettingsService/GameMode.cs"/>
+  </compounddef>
+</doxygen>

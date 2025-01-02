@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_eef816219d45dc3e94055e5c299dbf9b" kind="dir">
+    <compoundname>D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels</compoundname>
+    <innerfile refid="_base_view_model_8cs">BaseViewModel.cs</innerfile>
+    <innerfile refid="_game_view_model_8cs">GameViewModel.cs</innerfile>
+    <innerfile refid="_home_view_model_8cs">HomeViewModel.cs</innerfile>
+    <innerfile refid="_main_view_model_8cs">MainViewModel.cs</innerfile>
+    <innerfile refid="_settings_view_model_8cs">SettingsViewModel.cs</innerfile>
+    <innerfile refid="_view_model_locator_8cs">ViewModelLocator.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/"/>
+  </compounddef>
+</doxygen>

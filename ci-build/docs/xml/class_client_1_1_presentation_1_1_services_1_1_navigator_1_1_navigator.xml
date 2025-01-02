@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator" kind="class" language="C#" prot="public">
+    <compoundname>Client::Presentation::Services::Navigator::Navigator</compoundname>
+    <basecompoundref refid="class_client_1_1_domain_1_1_services_1_1_observable_object" prot="public" virt="non-virtual">Client.Domain.Services.ObservableObject</basecompoundref>
+    <basecompoundref refid="interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator" prot="public" virt="non-virtual">Client.Presentation.Services.Navigator.INavigator</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_1a428f91100eed377917f695e5555d92df" prot="private" static="no" mutable="no">
+        <type>readonly Func&lt; Type, <ref refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model" kindref="compound">BaseViewModel</ref> &gt;</type>
+        <definition>readonly Func&lt;Type, BaseViewModel&gt; Client.Presentation.Services.Navigator.Navigator._viewModelFactory</definition>
+        <argsstring></argsstring>
+        <name>_viewModelFactory</name>
+        <qualifiedname>Client.Presentation.Services.Navigator.Navigator._viewModelFactory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Services/Navigator/Navigator.cs" line="12" column="27" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Services/Navigator/Navigator.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_1a43e8a022c0329951ac45ba90036de3b1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model" kindref="compound">BaseViewModel</ref></type>
+        <definition>BaseViewModel Client.Presentation.Services.Navigator.Navigator._currentView</definition>
+        <argsstring></argsstring>
+        <name>_currentView</name>
+        <qualifiedname>Client.Presentation.Services.Navigator.Navigator._currentView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Services/Navigator/Navigator.cs" line="13" column="27" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Services/Navigator/Navigator.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_1acd862192df08279ac07500334e1f2dca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model" kindref="compound">BaseViewModel</ref></type>
+        <definition>BaseViewModel Client.Presentation.Services.Navigator.Navigator.CurrentView</definition>
+        <argsstring></argsstring>
+        <name>CurrentView</name>
+        <qualifiedname>Client.Presentation.Services.Navigator.Navigator.CurrentView</qualifiedname>
+        <reimplements refid="interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator_1aea5f81e8129c65f0e53e963817cba947">CurrentView</reimplements>
+        <briefdescription>
+<para>Gets or sets the current view that is being displayed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Services/Navigator/Navigator.cs" line="18" column="26" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Services/Navigator/Navigator.cs" bodystart="19" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_1a92ab96174b8cef4d5e079ed29b19e2c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client.Presentation.Services.Navigator.Navigator.Navigator</definition>
+        <argsstring>(Func&lt; Type, BaseViewModel &gt; viewModelFactory)</argsstring>
+        <name>Navigator</name>
+        <qualifiedname>Client.Presentation.Services.Navigator.Navigator.Navigator</qualifiedname>
+        <param>
+          <type>Func&lt; Type, <ref refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model" kindref="compound">BaseViewModel</ref> &gt;</type>
+          <declname>viewModelFactory</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator" kindref="compound">Navigator</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>viewModelFactory</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A function that creates a new instance of a view model based on its type.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ArgumentNullException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thrown when the <emphasis>viewModelFactory</emphasis>  is null.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Services/Navigator/Navigator.cs" line="34" column="12" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Services/Navigator/Navigator.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_1af11c5fdd3152e99432ca7106111e3894" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Presentation.Services.Navigator.Navigator.NavigateTo&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>NavigateTo&lt; T &gt;</name>
+        <qualifiedname>Client.Presentation.Services.Navigator.Navigator.NavigateTo&lt; T &gt;</qualifiedname>
+        <reimplements refid="interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator_1afdcad15e7bfabdf9f2ff02f1529f59f7">NavigateTo&lt; T &gt;</reimplements>
+        <briefdescription>
+<para>Navigates to a new view model of the specified type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the view model to navigate to.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Services/Navigator/Navigator.cs" line="43" column="12" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Services/Navigator/Navigator.cs" bodystart="43" bodyend="47"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator" kindref="compound">Navigator</ref> class provides navigation functionality by managing the current view and allowing navigation to different view models. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Client.Presentation.Services.Navigator.Navigator</label>
+        <link refid="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>INavigator</label>
+        <link refid="interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator"/>
+      </node>
+      <node id="3">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2">
+        <label>ObservableObject</label>
+        <link refid="class_client_1_1_domain_1_1_services_1_1_observable_object"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Client.Presentation.Services.Navigator.Navigator</label>
+        <link refid="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>INavigator</label>
+        <link refid="interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator"/>
+      </node>
+      <node id="3">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2">
+        <label>ObservableObject</label>
+        <link refid="class_client_1_1_domain_1_1_services_1_1_observable_object"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Services/Navigator/Navigator.cs" line="10" column="7" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Services/Navigator/Navigator.cs" bodystart="11" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_1a43e8a022c0329951ac45ba90036de3b1" prot="private" virt="non-virtual"><scope>Client::Presentation::Services::Navigator::Navigator</scope><name>_currentView</name></member>
+      <member refid="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_1a428f91100eed377917f695e5555d92df" prot="private" virt="non-virtual"><scope>Client::Presentation::Services::Navigator::Navigator</scope><name>_viewModelFactory</name></member>
+      <member refid="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_1acd862192df08279ac07500334e1f2dca" prot="public" virt="non-virtual"><scope>Client::Presentation::Services::Navigator::Navigator</scope><name>CurrentView</name></member>
+      <member refid="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_1af11c5fdd3152e99432ca7106111e3894" prot="public" virt="non-virtual"><scope>Client::Presentation::Services::Navigator::Navigator</scope><name>NavigateTo&lt; T &gt;</name></member>
+      <member refid="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator_1a92ab96174b8cef4d5e079ed29b19e2c1" prot="public" virt="non-virtual"><scope>Client::Presentation::Services::Navigator::Navigator</scope><name>Navigator</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_observable_object_1af1409a7463d72be66764b71359c6cbed" prot="protected" virt="virtual"><scope>Client::Presentation::Services::Navigator::Navigator</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_observable_object_1af4dff471043a93a50e17ea4b5f51e6f7" prot="public" virt="non-virtual"><scope>Client::Presentation::Services::Navigator::Navigator</scope><name>PropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

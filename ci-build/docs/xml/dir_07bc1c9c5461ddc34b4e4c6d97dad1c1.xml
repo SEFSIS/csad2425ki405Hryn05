@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_07bc1c9c5461ddc34b4e4c6d97dad1c1" kind="dir">
+    <compoundname>D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager</compoundname>
+    <innerdir refid="dir_d8b3ccc99cc9df258e29505ec28200c6">D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON</innerdir>
+    <innerfile refid="_i_game_storage_manager_8cs">IGameStorageManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/"/>
+  </compounddef>
+</doxygen>

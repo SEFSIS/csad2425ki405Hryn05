@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_base_view_model_8cs" kind="file" language="C#">
+    <compoundname>BaseViewModel.cs</compoundname>
+    <innerclass refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model" prot="public">Client::Presentation::ViewModels::BaseViewModel</innerclass>
+    <innernamespace refid="namespace_client">Client</innernamespace>
+    <innernamespace refid="namespace_client_1_1_presentation">Client::Presentation</innernamespace>
+    <innernamespace refid="namespace_client_1_1_presentation_1_1_view_models">Client::Presentation::ViewModels</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_client_1_1_domain_1_1_services" kindref="compound">Client.Domain.Services</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_client_1_1_presentation_1_1_services_1_1_navigator" kindref="compound">Client.Presentation.Services.Navigator</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespace_client_1_1_presentation_1_1_view_models" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_client_1_1_presentation_1_1_view_models" kindref="compound">Client.Presentation.ViewModels</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model" kindref="compound">BaseViewModel</ref><sp/>:<sp/><ref refid="class_client_1_1_domain_1_1_services_1_1_observable_object" kindref="compound">ObservableObject</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator" kindref="compound">INavigator</ref><sp/>_navigator;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator" kindref="compound">INavigator</ref><sp/><ref refid="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator" kindref="compound">Navigator</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>=&gt;<sp/>_navigator;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_navigator<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_client_1_1_domain_1_1_services_1_1_observable_object_1af1409a7463d72be66764b71359c6cbed" kindref="member">OnPropertyChanged</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model_1ae2d77d612c3b9a84fca5c04c647a35e8" kindref="member">BaseViewModel</ref>(<ref refid="interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator" kindref="compound">INavigator</ref><sp/>navigator)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_client_1_1_presentation_1_1_services_1_1_navigator_1_1_navigator" kindref="compound">Navigator</ref><sp/>=<sp/>navigator<sp/>??<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ArgumentNullException(nameof(navigator));</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/BaseViewModel.cs"/>
+  </compounddef>
+</doxygen>

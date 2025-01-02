@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_presentation_1_1_host_builders_1_1_add_configuration_host_builder_extensions" kind="class" language="C#" prot="package">
+    <compoundname>Client::Presentation::HostBuilders::AddConfigurationHostBuilderExtensions</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_host_builders_1_1_add_configuration_host_builder_extensions_1a26632555827af0a04e57b7e539aaffce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IHostBuilder</type>
+        <definition>static IHostBuilder Client.Presentation.HostBuilders.AddConfigurationHostBuilderExtensions.AddConfiguration</definition>
+        <argsstring>(this IHostBuilder hostBuilder)</argsstring>
+        <name>AddConfiguration</name>
+        <qualifiedname>Client.Presentation.HostBuilders.AddConfigurationHostBuilderExtensions.AddConfiguration</qualifiedname>
+        <param>
+          <type>this IHostBuilder</type>
+          <declname>hostBuilder</declname>
+        </param>
+        <briefdescription>
+<para>Adds configuration sources to the IHostBuilder. This includes loading environment variables, JSON configuration files, and setting the base directory for the configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hostBuilder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The IHostBuilder instance to configure.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The configured IHostBuilder instance.</para>
+</simplesect>
+</para>
+<para>This method will configure the application to load: <itemizedlist>
+<listitem>
+<para>Environment variables with a prefix of &quot;PREFIX_&quot; </para>
+</listitem>
+<listitem>
+<para>appsettings.json (if it exists) </para>
+</listitem>
+<listitem>
+<para>appsettings.{environmentName}.json (where environmentName is derived from the CORE_ENVIRONMENT environment variable, defaulting to &quot;Development&quot;) </para>
+</listitem>
+<listitem>
+<para>All environment variables </para>
+</listitem>
+</itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/HostBuilders/AddConfigurationHostBuilderExtensions.cs" line="26" column="32" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/HostBuilders/AddConfigurationHostBuilderExtensions.cs" bodystart="26" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Extension methods for configuring the IHostBuilder to load application settings. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/HostBuilders/AddConfigurationHostBuilderExtensions.cs" line="9" column="17" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/HostBuilders/AddConfigurationHostBuilderExtensions.cs" bodystart="10" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_presentation_1_1_host_builders_1_1_add_configuration_host_builder_extensions_1a26632555827af0a04e57b7e539aaffce" prot="public" virt="non-virtual"><scope>Client::Presentation::HostBuilders::AddConfigurationHostBuilderExtensions</scope><name>AddConfiguration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

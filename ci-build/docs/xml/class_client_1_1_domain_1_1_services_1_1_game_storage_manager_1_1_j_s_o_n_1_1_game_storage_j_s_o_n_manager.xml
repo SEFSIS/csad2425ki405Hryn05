@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager" kind="class" language="C#" prot="public">
+    <compoundname>Client::Domain::Services::GameStorageManager::JSON::GameStorageJSONManager</compoundname>
+    <basecompoundref refid="interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager" prot="public" virt="non-virtual">Client.Domain.Services.IStorageManager.IGameStorageManager</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_1a6f720c4363c068ef5cadefaa905dfc87" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager._defaultFolder</definition>
+        <argsstring></argsstring>
+        <name>_defaultFolder</name>
+        <qualifiedname>Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager._defaultFolder</qualifiedname>
+        <initializer>= Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @&quot;..\..\..\..\Games&quot;))</initializer>
+        <briefdescription>
+<para>Default folder path for saving and loading game files. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON/GameStorageJSONManager.cs" line="16" column="29" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON/GameStorageJSONManager.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_1ac50e4056b6a4e152acd2ef7045adfe7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state" kindref="compound">GameState</ref></type>
+        <definition>GameState Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager.LoadGame</definition>
+        <argsstring>()</argsstring>
+        <name>LoadGame</name>
+        <qualifiedname>Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager.LoadGame</qualifiedname>
+        <reimplements refid="interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager_1a19b1b0b540dadd0984f9fbaa2285137a">LoadGame</reimplements>
+        <briefdescription>
+<para>Loads a game state from an <ref refid="namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n" kindref="compound">JSON</ref> file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The loaded GameState object.</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>InvalidOperationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thrown if the <ref refid="namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n" kindref="compound">JSON</ref> file cannot be deserialized into a <ref refid="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_state_j_s_o_n" kindref="compound">GameStateJSON</ref>.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>FileNotFoundException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thrown if the file specified by the user does not exist.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON/GameStorageJSONManager.cs" line="24" column="22" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON/GameStorageJSONManager.cs" bodystart="24" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_1a9b47264e696c5960939149319d0bdc76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager.SaveGame</definition>
+        <argsstring>(GameState game)</argsstring>
+        <name>SaveGame</name>
+        <qualifiedname>Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager.SaveGame</qualifiedname>
+        <reimplements refid="interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager_1a9e542eb002a9353fa744a9cf809f9db3">SaveGame</reimplements>
+        <param>
+          <type><ref refid="struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state" kindref="compound">GameState</ref></type>
+          <declname>game</declname>
+        </param>
+        <briefdescription>
+<para>Saves a game state to an <ref refid="namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n" kindref="compound">JSON</ref> file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>game</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The game state to save.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>InvalidOperationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thrown if the GameState cannot be serialized.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON/GameStorageJSONManager.cs" line="45" column="17" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON/GameStorageJSONManager.cs" bodystart="45" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_1ab022b190000ab24b2c5105fac267ea68" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager.GetPath</definition>
+        <argsstring>(string defaultPath=&quot;&quot;, bool saveFile=true)</argsstring>
+        <name>GetPath</name>
+        <qualifiedname>Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager.GetPath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>defaultPath</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveFile</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Retrieves the file path for saving or loading <ref refid="namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n" kindref="compound">JSON</ref> files. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The default folder path to use.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>saveFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><computeroutput>true</computeroutput> to get a save path, <computeroutput>false</computeroutput> to get a load path.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The file path as a string.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON/GameStorageJSONManager.cs" line="66" column="20" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON/GameStorageJSONManager.cs" bodystart="66" bodyend="71"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_1ab80aabd41bc8a8776e170d18b4a4b0a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager.GetPathToSaveJson</definition>
+        <argsstring>(string defaultPath)</argsstring>
+        <name>GetPathToSaveJson</name>
+        <qualifiedname>Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager.GetPathToSaveJson</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>defaultPath</declname>
+        </param>
+        <briefdescription>
+<para>Opens a dialog for selecting a file to save as <ref refid="namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n" kindref="compound">JSON</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The default folder path for the dialog.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The selected file path, or <computeroutput>null</computeroutput> if the dialog is canceled.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON/GameStorageJSONManager.cs" line="78" column="26" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON/GameStorageJSONManager.cs" bodystart="78" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_1a8e4be7f7dc4b103fcc7d56391bba37c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager.GetPathToLoadJson</definition>
+        <argsstring>(string defaultPath)</argsstring>
+        <name>GetPathToLoadJson</name>
+        <qualifiedname>Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager.GetPathToLoadJson</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>defaultPath</declname>
+        </param>
+        <briefdescription>
+<para>Opens a dialog for selecting an <ref refid="namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n" kindref="compound">JSON</ref> file to load. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>defaultPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The default folder path for the dialog.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The selected file path, or <computeroutput>null</computeroutput> if the dialog is canceled.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON/GameStorageJSONManager.cs" line="101" column="26" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON/GameStorageJSONManager.cs" bodystart="101" bodyend="116"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Implementation of IGameStorageManager that uses <ref refid="namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n" kindref="compound">JSON</ref> serialization for saving and loading game states. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager</label>
+        <link refid="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IGameStorageManager</label>
+        <link refid="interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager</label>
+        <link refid="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IGameStorageManager</label>
+        <link refid="interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON/GameStorageJSONManager.cs" line="11" column="7" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameStorageManager/JSON/GameStorageJSONManager.cs" bodystart="12" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_1a6f720c4363c068ef5cadefaa905dfc87" prot="private" virt="non-virtual"><scope>Client::Domain::Services::GameStorageManager::JSON::GameStorageJSONManager</scope><name>_defaultFolder</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_1ab022b190000ab24b2c5105fac267ea68" prot="private" virt="non-virtual"><scope>Client::Domain::Services::GameStorageManager::JSON::GameStorageJSONManager</scope><name>GetPath</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_1a8e4be7f7dc4b103fcc7d56391bba37c7" prot="public" virt="non-virtual"><scope>Client::Domain::Services::GameStorageManager::JSON::GameStorageJSONManager</scope><name>GetPathToLoadJson</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_1ab80aabd41bc8a8776e170d18b4a4b0a3" prot="public" virt="non-virtual"><scope>Client::Domain::Services::GameStorageManager::JSON::GameStorageJSONManager</scope><name>GetPathToSaveJson</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_1ac50e4056b6a4e152acd2ef7045adfe7b" prot="public" virt="non-virtual"><scope>Client::Domain::Services::GameStorageManager::JSON::GameStorageJSONManager</scope><name>LoadGame</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_1a9b47264e696c5960939149319d0bdc76" prot="public" virt="non-virtual"><scope>Client::Domain::Services::GameStorageManager::JSON::GameStorageJSONManager</scope><name>SaveGame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_presentation_1_1_views_1_1_settings" kind="class" language="C#" prot="public">
+    <compoundname>Client::Presentation::Views::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Controls.UserControl</basecompoundref>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_settings_1a411896e47346faac4d5e729fd578f4c8" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBox</type>
+        <definition>System Windows Controls ComboBox Client.Presentation.Views.Settings::PortComboBox</definition>
+        <argsstring></argsstring>
+        <name>PortComboBox</name>
+        <qualifiedname>Client.Presentation.Views.Settings.PortComboBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" line="53" column="48" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_settings_1aa937abc4f84013a00640d9a17ff9ea49" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBox</type>
+        <definition>System Windows Controls ComboBox Client.Presentation.Views.Settings::SpeedComboBox</definition>
+        <argsstring></argsstring>
+        <name>SpeedComboBox</name>
+        <qualifiedname>Client.Presentation.Views.Settings.SpeedComboBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" line="61" column="48" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_settings_1af7978be4650033e50f646cd9abf7527c" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBox</type>
+        <definition>System Windows Controls ComboBox Client.Presentation.Views.Settings::GameModeComboBox</definition>
+        <argsstring></argsstring>
+        <name>GameModeComboBox</name>
+        <qualifiedname>Client.Presentation.Views.Settings.GameModeComboBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" line="69" column="48" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_settings_1a04f9485122aea9520de9690a12d29ae3" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button Client.Presentation.Views.Settings::SaveButton</definition>
+        <argsstring></argsstring>
+        <name>SaveButton</name>
+        <qualifiedname>Client.Presentation.Views.Settings.SaveButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" line="77" column="46" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_views_1_1_settings_1a7faed68d577c8c4ad07519c7550878cf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Client.Presentation.Views.Settings::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>Client.Presentation.Views.Settings._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" line="82" column="22" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_views_1_1_settings_1a237b085cec60723138a85a402763dc94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Presentation.Views.Settings.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>Client.Presentation.Views.Settings.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" line="89" column="21" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" bodystart="89" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_views_1_1_settings_1a237b085cec60723138a85a402763dc94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Presentation.Views.Settings.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>Client.Presentation.Views.Settings.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.i.cs" line="89" column="21" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.i.cs" bodystart="89" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_views_1_1_settings_1a3993259499a79b8481dced3fb6c946af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client.Presentation.Views.Settings.Settings</definition>
+        <argsstring>()</argsstring>
+        <name>Settings</name>
+        <qualifiedname>Client.Presentation.Views.Settings.Settings</qualifiedname>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_client_1_1_presentation_1_1_views_1_1_settings" kindref="compound">Settings</ref> class. This constructor sets up the user control and initializes its components. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Views/Settings.xaml.cs" line="15" column="12" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Views/Settings.xaml.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_views_1_1_settings_1a3c8d88852dc8f721aff212d16afce459" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. Client.Presentation.Views.Settings.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>Client.Presentation.Views.Settings.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" line="109" column="52" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" bodystart="109" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_views_1_1_settings_1a3c8d88852dc8f721aff212d16afce459" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. Client.Presentation.Views.Settings.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>Client.Presentation.Views.Settings.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.i.cs" line="109" column="52" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.i.cs" bodystart="109" bodyend="126"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="class_client_1_1_presentation_1_1_views_1_1_settings" kindref="compound">Settings</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents the <ref refid="class_client_1_1_presentation_1_1_views_1_1_settings" kindref="compound">Settings</ref> user control in the application. This control encapsulates the user interface and logic for displaying and interacting with the game. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Client.Presentation.Views.Settings</label>
+        <link refid="class_client_1_1_presentation_1_1_views_1_1_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Client.Presentation.Views.Settings</label>
+        <link refid="class_client_1_1_presentation_1_1_views_1_1_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>GameModeComboBox</edgelabel>
+          <edgelabel>PortComboBox</edgelabel>
+          <edgelabel>SaveButton</edgelabel>
+          <edgelabel>SpeedComboBox</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::UserControl</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>UserControl</label>
+      </node>
+      <node id="5">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/Views/Settings.g.cs" line="48" column="19" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Views/Settings.xaml.cs" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_settings_1a7faed68d577c8c4ad07519c7550878cf" prot="private" virt="non-virtual"><scope>Client::Presentation::Views::Settings</scope><name>_contentLoaded</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_settings_1a3c8d88852dc8f721aff212d16afce459" prot="private" virt="non-virtual"><scope>Client::Presentation::Views::Settings</scope><name>Connect</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_settings_1a3c8d88852dc8f721aff212d16afce459" prot="private" virt="non-virtual"><scope>Client::Presentation::Views::Settings</scope><name>Connect</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_settings_1af7978be4650033e50f646cd9abf7527c" prot="package" virt="non-virtual"><scope>Client::Presentation::Views::Settings</scope><name>GameModeComboBox</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_settings_1a237b085cec60723138a85a402763dc94" prot="public" virt="non-virtual"><scope>Client::Presentation::Views::Settings</scope><name>InitializeComponent</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_settings_1a237b085cec60723138a85a402763dc94" prot="public" virt="non-virtual"><scope>Client::Presentation::Views::Settings</scope><name>InitializeComponent</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_settings_1a411896e47346faac4d5e729fd578f4c8" prot="package" virt="non-virtual"><scope>Client::Presentation::Views::Settings</scope><name>PortComboBox</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_settings_1a04f9485122aea9520de9690a12d29ae3" prot="package" virt="non-virtual"><scope>Client::Presentation::Views::Settings</scope><name>SaveButton</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_settings_1a3993259499a79b8481dced3fb6c946af" prot="public" virt="non-virtual"><scope>Client::Presentation::Views::Settings</scope><name>Settings</name></member>
+      <member refid="class_client_1_1_presentation_1_1_views_1_1_settings_1aa937abc4f84013a00640d9a17ff9ea49" prot="package" virt="non-virtual"><scope>Client::Presentation::Views::Settings</scope><name>SpeedComboBox</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

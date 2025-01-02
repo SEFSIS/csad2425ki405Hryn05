@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="_game_status_8cs" kind="file" language="C#">
+    <compoundname>GameStatus.cs</compoundname>
+    <innernamespace refid="namespace_client">Client</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain">Client::Domain</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain_1_1_services">Client::Domain::Services</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain_1_1_services_1_1_game_service">Client::Domain::Services::GameService</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_client_1_1_domain_1_1_services_1_1_game_service" kindref="compound">Client.Domain.Services.GameService</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_client_1_1_domain_1_1_services_1_1_game_service_1a56791edfaff87576546dcf34241a21c2" kindref="member">GameStatus</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_client_1_1_domain_1_1_services_1_1_game_service_1a56791edfaff87576546dcf34241a21c2a7ee7defde6dc3a1d4a4a891b3894e790" kindref="member">Ongoing</ref>,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_client_1_1_domain_1_1_services_1_1_game_service_1a56791edfaff87576546dcf34241a21c2a2d03c2d5a7ec65ef4619e0582c272ec2" kindref="member">Draw</ref>,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_client_1_1_domain_1_1_services_1_1_game_service_1a56791edfaff87576546dcf34241a21c2a8e1dda5f22e44c5b05715e6c5bec84ad" kindref="member">WonPlayerX</ref>,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_client_1_1_domain_1_1_services_1_1_game_service_1a56791edfaff87576546dcf34241a21c2a880611a57e01d2ec467e27eadcac87e5" kindref="member">WonPlayerO</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameService/GameStatus.cs"/>
+  </compounddef>
+</doxygen>

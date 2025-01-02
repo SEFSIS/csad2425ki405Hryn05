@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_i_settings_service" kind="interface" language="C#" prot="public">
+    <compoundname>Client::Domain::Services::Settings::ISettingsService</compoundname>
+    <derivedcompoundref refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_settings_service" prot="public" virt="non-virtual">Client.Domain.Services.Settings.SettingsService</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_i_settings_service_1a26400a7c7dea8344f59407babca3eb05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_game_settings_service_1_1_i_game_settings_service" kindref="compound">IGameSettingsService</ref></type>
+        <definition>IGameSettingsService Client.Domain.Services.Settings.ISettingsService.GetGameSettings</definition>
+        <argsstring>()</argsstring>
+        <name>GetGameSettings</name>
+        <qualifiedname>Client.Domain.Services.Settings.ISettingsService.GetGameSettings</qualifiedname>
+        <reimplementedby refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_settings_service_1acec6ef4f5b110db5e54d41f707740a54">GetGameSettings</reimplementedby>
+        <briefdescription>
+<para>Gets the game settings service. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An instance of IGameSettingsService.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/ISettingsService.cs" line="15" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_i_settings_service_1ae704309ff0d66989918823224564f326" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service" kindref="compound">IPortSettingsService</ref></type>
+        <definition>IPortSettingsService Client.Domain.Services.Settings.ISettingsService.GetPortSettings</definition>
+        <argsstring>()</argsstring>
+        <name>GetPortSettings</name>
+        <qualifiedname>Client.Domain.Services.Settings.ISettingsService.GetPortSettings</qualifiedname>
+        <reimplementedby refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_settings_service_1a4b92b3ba70bcee14fb2136c106e08d83">GetPortSettings</reimplementedby>
+        <briefdescription>
+<para>Gets the port settings service. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An instance of IPortSettingsService.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/ISettingsService.cs" line="21" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_i_settings_service_1a9af31f08a67a09c688bffcfc4f97a207" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Client.Domain.Services.Settings.ISettingsService.IsAllSettingSet</definition>
+        <argsstring>()</argsstring>
+        <name>IsAllSettingSet</name>
+        <qualifiedname>Client.Domain.Services.Settings.ISettingsService.IsAllSettingSet</qualifiedname>
+        <reimplementedby refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_settings_service_1ac57e2b661bc6cbb5ee74d11e50931b55">IsAllSettingSet</reimplementedby>
+        <briefdescription>
+<para>Checks if all settings have been configured. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>true</computeroutput> if all settings are configured; otherwise, <computeroutput>false</computeroutput>.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/ISettingsService.cs" line="27" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Interface for settings service providing methods to manage game and port settings. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Client.Domain.Services.Settings.ISettingsService</label>
+        <link refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_i_settings_service"/>
+      </node>
+      <node id="2">
+        <label>Client.Domain.Services.Settings.SettingsService</label>
+        <link refid="class_client_1_1_domain_1_1_services_1_1_settings_1_1_settings_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/ISettingsService.cs" line="9" column="18" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/ISettingsService.cs" bodystart="10" bodyend="28"/>
+    <listofallmembers>
+      <member refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_i_settings_service_1a26400a7c7dea8344f59407babca3eb05" prot="public" virt="non-virtual"><scope>Client::Domain::Services::Settings::ISettingsService</scope><name>GetGameSettings</name></member>
+      <member refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_i_settings_service_1ae704309ff0d66989918823224564f326" prot="public" virt="non-virtual"><scope>Client::Domain::Services::Settings::ISettingsService</scope><name>GetPortSettings</name></member>
+      <member refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_i_settings_service_1a9af31f08a67a09c688bffcfc4f97a207" prot="public" virt="non-virtual"><scope>Client::Domain::Services::Settings::ISettingsService</scope><name>IsAllSettingSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

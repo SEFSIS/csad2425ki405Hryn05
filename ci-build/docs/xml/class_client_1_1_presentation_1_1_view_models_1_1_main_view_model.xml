@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_presentation_1_1_view_models_1_1_main_view_model" kind="class" language="C#" prot="public">
+    <compoundname>Client::Presentation::ViewModels::MainViewModel</compoundname>
+    <basecompoundref refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model" prot="public" virt="non-virtual">Client.Presentation.ViewModels.BaseViewModel</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_view_models_1_1_main_view_model_1a9b1b99c8dbf9a8e98a96bed8a2c988ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client.Presentation.ViewModels.MainViewModel.MainViewModel</definition>
+        <argsstring>(INavigator navigator)</argsstring>
+        <name>MainViewModel</name>
+        <qualifiedname>Client.Presentation.ViewModels.MainViewModel.MainViewModel</qualifiedname>
+        <param>
+          <type><ref refid="interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator" kindref="compound">INavigator</ref></type>
+          <declname>navigator</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_client_1_1_presentation_1_1_view_models_1_1_main_view_model" kindref="compound">MainViewModel</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>navigator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The navigator used for page navigation.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/MainViewModel.cs" line="14" column="12" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/MainViewModel.cs" bodystart="14" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>ViewModel for the main page, responsible for navigating to the Home page on initialization. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseViewModel</label>
+        <link refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Client.Presentation.ViewModels.MainViewModel</label>
+        <link refid="class_client_1_1_presentation_1_1_view_models_1_1_main_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="3">
+        <label>ObservableObject</label>
+        <link refid="class_client_1_1_domain_1_1_services_1_1_observable_object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseViewModel</label>
+        <link refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Client.Presentation.ViewModels.MainViewModel</label>
+        <link refid="class_client_1_1_presentation_1_1_view_models_1_1_main_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="3">
+        <label>ObservableObject</label>
+        <link refid="class_client_1_1_domain_1_1_services_1_1_observable_object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/MainViewModel.cs" line="8" column="7" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/MainViewModel.cs" bodystart="9" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model_1ae2d77d612c3b9a84fca5c04c647a35e8" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::MainViewModel</scope><name>BaseViewModel</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_main_view_model_1a9b1b99c8dbf9a8e98a96bed8a2c988ef" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::MainViewModel</scope><name>MainViewModel</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model_1aaf1de7b88f2e3a1267d9353f6fc5f1c1" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::MainViewModel</scope><name>Navigator</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_observable_object_1af1409a7463d72be66764b71359c6cbed" prot="protected" virt="virtual"><scope>Client::Presentation::ViewModels::MainViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_observable_object_1af4dff471043a93a50e17ea4b5f51e6f7" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::MainViewModel</scope><name>PropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

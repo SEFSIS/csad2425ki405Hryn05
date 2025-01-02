@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_5992bbe0074ba5c6e059cfdbaf419a1a" kind="dir">
+    <compoundname>D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/GameSettingsService</compoundname>
+    <innerfile refid="_game_mode_8cs">GameMode.cs</innerfile>
+    <innerfile refid="_game_settings_service_8cs">GameSettingsService.cs</innerfile>
+    <innerfile refid="_i_game_settings_service_8cs">IGameSettingsService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/Settings/GameSettingsService/"/>
+  </compounddef>
+</doxygen>

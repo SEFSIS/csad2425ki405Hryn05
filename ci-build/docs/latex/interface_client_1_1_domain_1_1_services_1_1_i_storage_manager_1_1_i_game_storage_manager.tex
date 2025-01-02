@@ -1,0 +1,67 @@
+\doxysection{Client.\+Domain.\+Services.\+IStorage\+Manager.\+IGame\+Storage\+Manager Interface Reference}
+\hypertarget{interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager}{}\label{interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager}\index{Client.Domain.Services.IStorageManager.IGameStorageManager@{Client.Domain.Services.IStorageManager.IGameStorageManager}}
+
+
+Interface for managing the saving and loading of game states.  
+
+
+Inheritance diagram for Client.\+Domain.\+Services.\+IStorage\+Manager.\+IGame\+Storage\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager_a9e542eb002a9353fa744a9cf809f9db3}{Save\+Game}} (\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}} game)
+\begin{DoxyCompactList}\small\item\em Saves the current game state to a storage medium. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}} \mbox{\hyperlink{interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager_a19b1b0b540dadd0984f9fbaa2285137a}{Load\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Loads a game state from a storage medium. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface for managing the saving and loading of game states. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager_a19b1b0b540dadd0984f9fbaa2285137a}\index{Client.Domain.Services.IStorageManager.IGameStorageManager@{Client.Domain.Services.IStorageManager.IGameStorageManager}!LoadGame@{LoadGame}}
+\index{LoadGame@{LoadGame}!Client.Domain.Services.IStorageManager.IGameStorageManager@{Client.Domain.Services.IStorageManager.IGameStorageManager}}
+\doxysubsubsection{\texorpdfstring{LoadGame()}{LoadGame()}}
+{\footnotesize\ttfamily \label{interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager_a19b1b0b540dadd0984f9fbaa2285137a} 
+\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}} Client.\+Domain.\+Services.\+IStorage\+Manager.\+IGame\+Storage\+Manager.\+Load\+Game (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Loads a game state from a storage medium. 
+
+\begin{DoxyReturn}{Returns}
+The loaded Game\+State object.
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_ac50e4056b6a4e152acd2ef7045adfe7b}{Client.\+Domain.\+Services.\+Game\+Storage\+Manager.\+JSON.\+Game\+Storage\+JSONManager}}.
+
+\Hypertarget{interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager_a9e542eb002a9353fa744a9cf809f9db3}\index{Client.Domain.Services.IStorageManager.IGameStorageManager@{Client.Domain.Services.IStorageManager.IGameStorageManager}!SaveGame@{SaveGame}}
+\index{SaveGame@{SaveGame}!Client.Domain.Services.IStorageManager.IGameStorageManager@{Client.Domain.Services.IStorageManager.IGameStorageManager}}
+\doxysubsubsection{\texorpdfstring{SaveGame()}{SaveGame()}}
+{\footnotesize\ttfamily \label{interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager_a9e542eb002a9353fa744a9cf809f9db3} 
+void Client.\+Domain.\+Services.\+IStorage\+Manager.\+IGame\+Storage\+Manager.\+Save\+Game (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}}}]{game}{}\end{DoxyParamCaption})}
+
+
+
+Saves the current game state to a storage medium. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & The game state to be saved.\\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_a9b47264e696c5960939149319d0bdc76}{Client.\+Domain.\+Services.\+Game\+Storage\+Manager.\+JSON.\+Game\+Storage\+JSONManager}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Subjects/7 semester/\+CSAD/\+New folder/csad2425ki405\+Hryn05/\+Lab3-\/4/\+Client/\+Client.\+Domain/\+Services/\+Game\+Storage\+Manager/IGame\+Storage\+Manager.\+cs\end{DoxyCompactItemize}

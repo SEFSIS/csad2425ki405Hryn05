@@ -1,0 +1,168 @@
+\doxysection{Client.\+Domain.\+Services.\+Server\+Service.\+IGame\+Service Interface Reference}
+\hypertarget{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service}{}\label{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service}\index{Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}}
+
+
+Represents the interface for the game service, defining the contract for game-\/related operations.  
+
+
+Inheritance diagram for Client.\+Domain.\+Services.\+Server\+Service.\+IGame\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_ab1c99ee1537a613d1ed7c96618817292}{Invoke\+Game\+Command}} (\mbox{\hyperlink{namespace_client_1_1_domain_1_1_services_1_1_server_service_add704b4a243982a7e74d21abfe8819a0}{Game\+Command}} command)
+\begin{DoxyCompactList}\small\item\em Invokes a specific game command. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}} \mbox{\hyperlink{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_ac63bd7b53a3c517eba0f8005f164593d}{Get\+Game\+State}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the current state of the game. \end{DoxyCompactList}\item 
+Serial\+Port \mbox{\hyperlink{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_a3ceaa9f73133d9db9a0c25efcebb6868}{Get\+Server\+Port}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the server\textquotesingle{}s serial port settings. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}} \mbox{\hyperlink{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_a5b1ab18a6f496197490e7f16093707a4}{Move}} (int row, int column)
+\begin{DoxyCompactList}\small\item\em Makes a move in the game at the specified board position. \end{DoxyCompactList}\item 
+bool? \mbox{\hyperlink{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_a8a608773e601692b36cd048515b0f0f1}{Is\+Winner}} ()
+\begin{DoxyCompactList}\small\item\em Determines if there is a winner in the game. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_a3e6559185f4abf07b6150c0069171b3e}{Send\+Request\+For\+AIMove}} ()
+\begin{DoxyCompactList}\small\item\em Sends a request for the AI to make a move. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_aa6328e9d75f2a68f382e7d85d72ed774}{Add\+Received\+Event\+Handler}} (Serial\+Data\+Received\+Event\+Handler handler)
+\begin{DoxyCompactList}\small\item\em Adds a handler for the event when serial data is received. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the interface for the game service, defining the contract for game-\/related operations. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_aa6328e9d75f2a68f382e7d85d72ed774}\index{Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}!AddReceivedEventHandler@{AddReceivedEventHandler}}
+\index{AddReceivedEventHandler@{AddReceivedEventHandler}!Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}}
+\doxysubsubsection{\texorpdfstring{AddReceivedEventHandler()}{AddReceivedEventHandler()}}
+{\footnotesize\ttfamily \label{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_aa6328e9d75f2a68f382e7d85d72ed774} 
+void Client.\+Domain.\+Services.\+Server\+Service.\+IGame\+Service.\+Add\+Received\+Event\+Handler (\begin{DoxyParamCaption}\item[{Serial\+Data\+Received\+Event\+Handler}]{handler}{}\end{DoxyParamCaption})}
+
+
+
+Adds a handler for the event when serial data is received. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em handler} & The event handler for serial data received.\\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service_aac8912a53a6ad7f22cfa66c4964cef82}{Client.\+Domain.\+Services.\+Game\+Service.\+Game\+Service}}.
+
+\Hypertarget{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_ac63bd7b53a3c517eba0f8005f164593d}\index{Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}!GetGameState@{GetGameState}}
+\index{GetGameState@{GetGameState}!Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}}
+\doxysubsubsection{\texorpdfstring{GetGameState()}{GetGameState()}}
+{\footnotesize\ttfamily \label{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_ac63bd7b53a3c517eba0f8005f164593d} 
+\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}} Client.\+Domain.\+Services.\+Server\+Service.\+IGame\+Service.\+Get\+Game\+State (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retrieves the current state of the game. 
+
+\begin{DoxyReturn}{Returns}
+The current Game\+State.
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service_a68e4f34a2ee73c766966814d3903f5d7}{Client.\+Domain.\+Services.\+Game\+Service.\+Game\+Service}}.
+
+\Hypertarget{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_a3ceaa9f73133d9db9a0c25efcebb6868}\index{Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}!GetServerPort@{GetServerPort}}
+\index{GetServerPort@{GetServerPort}!Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}}
+\doxysubsubsection{\texorpdfstring{GetServerPort()}{GetServerPort()}}
+{\footnotesize\ttfamily \label{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_a3ceaa9f73133d9db9a0c25efcebb6868} 
+Serial\+Port Client.\+Domain.\+Services.\+Server\+Service.\+IGame\+Service.\+Get\+Server\+Port (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Retrieves the server\textquotesingle{}s serial port settings. 
+
+\begin{DoxyReturn}{Returns}
+The Serial\+Port object for server communication.
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service_a56e1f4f8002998bca75c06bee00e2868}{Client.\+Domain.\+Services.\+Game\+Service.\+Game\+Service}}.
+
+\Hypertarget{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_ab1c99ee1537a613d1ed7c96618817292}\index{Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}!InvokeGameCommand@{InvokeGameCommand}}
+\index{InvokeGameCommand@{InvokeGameCommand}!Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}}
+\doxysubsubsection{\texorpdfstring{InvokeGameCommand()}{InvokeGameCommand()}}
+{\footnotesize\ttfamily \label{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_ab1c99ee1537a613d1ed7c96618817292} 
+void Client.\+Domain.\+Services.\+Server\+Service.\+IGame\+Service.\+Invoke\+Game\+Command (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_client_1_1_domain_1_1_services_1_1_server_service_add704b4a243982a7e74d21abfe8819a0}{Game\+Command}}}]{command}{}\end{DoxyParamCaption})}
+
+
+
+Invokes a specific game command. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em command} & The game command to invoke.\\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service_ae6ca042ca0cb4359ecad19c2081ba381}{Client.\+Domain.\+Services.\+Game\+Service.\+Game\+Service}}.
+
+\Hypertarget{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_a8a608773e601692b36cd048515b0f0f1}\index{Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}!IsWinner@{IsWinner}}
+\index{IsWinner@{IsWinner}!Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}}
+\doxysubsubsection{\texorpdfstring{IsWinner()}{IsWinner()}}
+{\footnotesize\ttfamily \label{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_a8a608773e601692b36cd048515b0f0f1} 
+bool? Client.\+Domain.\+Services.\+Server\+Service.\+IGame\+Service.\+Is\+Winner (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Determines if there is a winner in the game. 
+
+\begin{DoxyReturn}{Returns}
+A nullable boolean indicating the winning side\+: {\ttfamily true} for Player X, {\ttfamily false} for Player O, or {\ttfamily null} for no winner. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service_ab1f028b57bad4adee771c1bb25aa8581}{Client.\+Domain.\+Services.\+Game\+Service.\+Game\+Service}}.
+
+\Hypertarget{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_a5b1ab18a6f496197490e7f16093707a4}\index{Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}!Move@{Move}}
+\index{Move@{Move}!Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily \label{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_a5b1ab18a6f496197490e7f16093707a4} 
+\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}} Client.\+Domain.\+Services.\+Server\+Service.\+IGame\+Service.\+Move (\begin{DoxyParamCaption}\item[{int}]{row}{, }\item[{int}]{column}{}\end{DoxyParamCaption})}
+
+
+
+Makes a move in the game at the specified board position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & The row index of the move.\\
+\hline
+{\em column} & The column index of the move.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The updated Game\+State.
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service_a3099fbeefe186021923e2d2b5a5cdc44}{Client.\+Domain.\+Services.\+Game\+Service.\+Game\+Service}}.
+
+\Hypertarget{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_a3e6559185f4abf07b6150c0069171b3e}\index{Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}!SendRequestForAIMove@{SendRequestForAIMove}}
+\index{SendRequestForAIMove@{SendRequestForAIMove}!Client.Domain.Services.ServerService.IGameService@{Client.Domain.Services.ServerService.IGameService}}
+\doxysubsubsection{\texorpdfstring{SendRequestForAIMove()}{SendRequestForAIMove()}}
+{\footnotesize\ttfamily \label{interface_client_1_1_domain_1_1_services_1_1_server_service_1_1_i_game_service_a3e6559185f4abf07b6150c0069171b3e} 
+void Client.\+Domain.\+Services.\+Server\+Service.\+IGame\+Service.\+Send\+Request\+For\+AIMove (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Sends a request for the AI to make a move. 
+
+
+
+Implemented in \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_service_a81a2f3bea901039629108c30f62c3433}{Client.\+Domain.\+Services.\+Game\+Service.\+Game\+Service}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Subjects/7 semester/\+CSAD/\+New folder/csad2425ki405\+Hryn05/\+Lab3-\/4/\+Client/\+Client.\+Domain/\+Services/\+Game\+Service/IGame\+Service.\+cs\end{DoxyCompactItemize}

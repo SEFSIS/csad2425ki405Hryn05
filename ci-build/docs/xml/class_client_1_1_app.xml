@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_app" kind="class" language="C#" prot="public">
+    <compoundname>Client::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Application</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Application</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_1_1_app_1ab86d915de203545b63ccab07462e4324" prot="private" static="no" mutable="no">
+        <type>IHost</type>
+        <definition>IHost Client.App._host</definition>
+        <argsstring></argsstring>
+        <name>_host</name>
+        <qualifiedname>Client.App._host</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/App.xaml.cs" line="14" column="19" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/App.xaml.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_app_1aa2613b1b0e949e1e6b55c058948cd6c3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Client.App::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>Client.App._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/App.g.cs" line="46" column="22" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/App.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_client_1_1_app_1a53ee188adceb21c4a1ea90cd82e67c4b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>IServiceProvider</type>
+        <definition>IServiceProvider Client.App.ServiceProvider</definition>
+        <argsstring></argsstring>
+        <name>ServiceProvider</name>
+        <qualifiedname>Client.App.ServiceProvider</qualifiedname>
+        <briefdescription>
+<para>Gets the service provider that can be used for resolving services throughout the application. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/App.xaml.cs" line="19" column="36" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/App.xaml.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1_1_app_1ae494e32d153bbd1b4e35383db18edc5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client.App.App</definition>
+        <argsstring>()</argsstring>
+        <name>App</name>
+        <qualifiedname>Client.App.App</qualifiedname>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_client_1_1_app" kindref="compound">App</ref> class. This constructor sets up the application&apos;s host and configures the service provider. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/App.xaml.cs" line="25" column="12" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/App.xaml.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_app_1aae6bb084acb30bf98dafe3d09362c20f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>Client.App.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/App.g.cs" line="53" column="21" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/App.g.cs" bodystart="53" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_app_1aae6bb084acb30bf98dafe3d09362c20f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>Client.App.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/App.g.i.cs" line="53" column="21" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/App.g.i.cs" bodystart="53" bodyend="71"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_client_1_1_app_1a5ee3722bc0b65c7a2bc6bf355bb00a14" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IHostBuilder</type>
+        <definition>static IHostBuilder Client.App.CreateHostBuilder</definition>
+        <argsstring>(string[] args=null)</argsstring>
+        <name>CreateHostBuilder</name>
+        <qualifiedname>Client.App.CreateHostBuilder</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Creates and configures the host builder with various services, configurations, and view models for the application. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional arguments to pass to the host builder.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An IHostBuilder instance for configuring the application host.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/App.xaml.cs" line="37" column="33" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/App.xaml.cs" bodystart="37" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_client_1_1_app_1a7c6edd98c791c0ebb41d06fe76b3b929" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Client.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <qualifiedname>Client.App.Main</qualifiedname>
+        <briefdescription>
+<para>Application Entry Point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/App.g.cs" line="79" column="28" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/App.g.cs" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_app_1a7c6edd98c791c0ebb41d06fe76b3b929" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Client.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <qualifiedname>Client.App.Main</qualifiedname>
+        <briefdescription>
+<para>Application Entry Point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/App.g.i.cs" line="79" column="28" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/App.g.i.cs" bodystart="79" bodyend="83"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents the entry point for the application. This class is responsible for setting up the application&apos;s services and view models, and initializing the main service provider for dependency injection. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_client_1_1_app" kindref="compound">App</ref>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Application</label>
+      </node>
+      <node id="1">
+        <label>Client.App</label>
+        <link refid="class_client_1_1_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Application</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Application</label>
+      </node>
+      <node id="1">
+        <label>Client.App</label>
+        <link refid="class_client_1_1_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Application</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/App.xaml.cs" line="12" column="15" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/obj/Debug/net8.0-windows/App.g.i.cs" bodystart="44" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_app_1aa2613b1b0e949e1e6b55c058948cd6c3" prot="private" virt="non-virtual"><scope>Client::App</scope><name>_contentLoaded</name></member>
+      <member refid="class_client_1_1_app_1ab86d915de203545b63ccab07462e4324" prot="private" virt="non-virtual"><scope>Client::App</scope><name>_host</name></member>
+      <member refid="class_client_1_1_app_1ae494e32d153bbd1b4e35383db18edc5b" prot="public" virt="non-virtual"><scope>Client::App</scope><name>App</name></member>
+      <member refid="class_client_1_1_app_1a5ee3722bc0b65c7a2bc6bf355bb00a14" prot="private" virt="non-virtual"><scope>Client::App</scope><name>CreateHostBuilder</name></member>
+      <member refid="class_client_1_1_app_1aae6bb084acb30bf98dafe3d09362c20f" prot="public" virt="non-virtual"><scope>Client::App</scope><name>InitializeComponent</name></member>
+      <member refid="class_client_1_1_app_1aae6bb084acb30bf98dafe3d09362c20f" prot="public" virt="non-virtual"><scope>Client::App</scope><name>InitializeComponent</name></member>
+      <member refid="class_client_1_1_app_1a7c6edd98c791c0ebb41d06fe76b3b929" prot="public" virt="non-virtual"><scope>Client::App</scope><name>Main</name></member>
+      <member refid="class_client_1_1_app_1a7c6edd98c791c0ebb41d06fe76b3b929" prot="public" virt="non-virtual"><scope>Client::App</scope><name>Main</name></member>
+      <member refid="class_client_1_1_app_1a53ee188adceb21c4a1ea90cd82e67c4b" prot="public" virt="non-virtual"><scope>Client::App</scope><name>ServiceProvider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

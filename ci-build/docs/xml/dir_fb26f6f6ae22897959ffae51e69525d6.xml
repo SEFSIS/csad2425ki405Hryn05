@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="dir_fb26f6f6ae22897959ffae51e69525d6" kind="dir">
+    <compoundname>D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Views</compoundname>
+    <innerfile refid="_game_8xaml_8cs">Game.xaml.cs</innerfile>
+    <innerfile refid="_home_8xaml_8cs">Home.xaml.cs</innerfile>
+    <innerfile refid="_settings_8xaml_8cs">Settings.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/Views/"/>
+  </compounddef>
+</doxygen>

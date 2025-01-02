@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model" kind="class" language="C#" prot="public">
+    <compoundname>Client::Presentation::ViewModels::SettingsViewModel</compoundname>
+    <basecompoundref refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model" prot="public" virt="non-virtual">Client.Presentation.ViewModels.BaseViewModel</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1ae099fc4582c851825a086104083c0cc1" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_i_settings_service" kindref="compound">ISettingsService</ref></type>
+        <definition>readonly ISettingsService Client.Presentation.ViewModels.SettingsViewModel._settings</definition>
+        <argsstring></argsstring>
+        <name>_settings</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel._settings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="18" column="39" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a998d45a8d0ca7bf36516adf99d616c7a" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_game_settings_service_1_1_i_game_settings_service" kindref="compound">IGameSettingsService</ref></type>
+        <definition>readonly IGameSettingsService Client.Presentation.ViewModels.SettingsViewModel._gameSettings</definition>
+        <argsstring></argsstring>
+        <name>_gameSettings</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel._gameSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="19" column="43" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a750730c8cf4ff59d5294f23f94ef4856" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_port_settings_service_1_1_i_port_settings_service" kindref="compound">IPortSettingsService</ref></type>
+        <definition>readonly IPortSettingsService Client.Presentation.ViewModels.SettingsViewModel._portSettings</definition>
+        <argsstring></argsstring>
+        <name>_portSettings</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel._portSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="20" column="43" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1afdd24f89b438946332cd9db973678670" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Client.Presentation.ViewModels.SettingsViewModel._selectedPortName</definition>
+        <argsstring></argsstring>
+        <name>_selectedPortName</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel._selectedPortName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="31" column="20" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a0b3869750e4e159797643b8e18e5fe80" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Client.Presentation.ViewModels.SettingsViewModel._selectedPortSpeed</definition>
+        <argsstring></argsstring>
+        <name>_selectedPortSpeed</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel._selectedPortSpeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="42" column="17" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1af72bec226b3e85ff7668fd8e6abe63f0" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Client.Presentation.ViewModels.SettingsViewModel._selectedGameMode</definition>
+        <argsstring></argsstring>
+        <name>_selectedGameMode</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel._selectedGameMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="53" column="20" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1aa3b11af7b748a94a446de8040521b94a" prot="private" static="no" mutable="no">
+        <type>ICommand</type>
+        <definition>ICommand Client.Presentation.ViewModels.SettingsViewModel._openHomePageCommand</definition>
+        <argsstring></argsstring>
+        <name>_openHomePageCommand</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel._openHomePageCommand</qualifiedname>
+        <initializer>= default!</initializer>
+        <briefdescription>
+<para>Command to navigate back to the home page and save the current settings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="75" column="22" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a9c879525a0a3dd6c97cae1738ed4dceb" prot="private" static="no" mutable="no">
+        <type>ICommand</type>
+        <definition>ICommand Client.Presentation.ViewModels.SettingsViewModel._changeSelectedPlayerSideCommand</definition>
+        <argsstring></argsstring>
+        <name>_changeSelectedPlayerSideCommand</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel._changeSelectedPlayerSideCommand</qualifiedname>
+        <initializer>= default!</initializer>
+        <briefdescription>
+<para>Command to change the selected player side (X or O). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="97" column="22" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a0f5788774c08dcd49992c25a3c3307eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; string &gt;</type>
+        <definition>IEnumerable&lt;string&gt; Client.Presentation.ViewModels.SettingsViewModel.Ports</definition>
+        <argsstring></argsstring>
+        <name>Ports</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.Ports</qualifiedname>
+        <briefdescription>
+<para>Gets the available ports. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="25" column="24" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1af5ed600d14b83e8e675f915671d51568" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Client.Presentation.ViewModels.SettingsViewModel.SelectedPort</definition>
+        <argsstring></argsstring>
+        <name>SelectedPort</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.SelectedPort</qualifiedname>
+        <briefdescription>
+<para>Gets or sets the selected port. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="30" column="19" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a758e513c1933dfe6a39b554ec5844837" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; int &gt;</type>
+        <definition>IEnumerable&lt;int&gt; Client.Presentation.ViewModels.SettingsViewModel.PortSpeeds</definition>
+        <argsstring></argsstring>
+        <name>PortSpeeds</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.PortSpeeds</qualifiedname>
+        <briefdescription>
+<para>Gets the available port speeds. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="36" column="24" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a8c48cee35cbf392bf6b3d18ac99c9eb7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Client.Presentation.ViewModels.SettingsViewModel.SelectedPortSpeed</definition>
+        <argsstring></argsstring>
+        <name>SelectedPortSpeed</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.SelectedPortSpeed</qualifiedname>
+        <briefdescription>
+<para>Gets or sets the selected port speed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="41" column="16" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1af31b3970d6a3341237dde8031588a75d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; string &gt;</type>
+        <definition>IEnumerable&lt;string&gt; Client.Presentation.ViewModels.SettingsViewModel.GameModes</definition>
+        <argsstring></argsstring>
+        <name>GameModes</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.GameModes</qualifiedname>
+        <briefdescription>
+<para>Gets the available game modes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="47" column="24" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a40f56e8d2ccb030f2b77a91b9db45fd1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Client.Presentation.ViewModels.SettingsViewModel.SelectedGameMode</definition>
+        <argsstring></argsstring>
+        <name>SelectedGameMode</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.SelectedGameMode</qualifiedname>
+        <briefdescription>
+<para>Gets or sets the selected game mode. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="52" column="19" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a50d629cb3a26615cc5d7ef1aa5b6e5ac" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? Client.Presentation.ViewModels.SettingsViewModel._selectedPlayerSide</definition>
+        <argsstring></argsstring>
+        <name>_selectedPlayerSide</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel._selectedPlayerSide</qualifiedname>
+        <briefdescription>
+<para>Gets the selected player side (X or O). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="58" column="18" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1aabef81052e540cfe5719bd14e86c7221" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Client.Presentation.ViewModels.SettingsViewModel.OpacityXSide</definition>
+        <argsstring></argsstring>
+        <name>OpacityXSide</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.OpacityXSide</qualifiedname>
+        <briefdescription>
+<para>Gets the opacity value for the X side. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="63" column="19" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1ac47bc95446a05ef189cb386b0b68d4f4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Client.Presentation.ViewModels.SettingsViewModel.OpacityOSide</definition>
+        <argsstring></argsstring>
+        <name>OpacityOSide</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.OpacityOSide</qualifiedname>
+        <briefdescription>
+<para>Gets the opacity value for the O side. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="68" column="19" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a3491c2a9f70a3f52a777591716c5494f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICommand</type>
+        <definition>ICommand Client.Presentation.ViewModels.SettingsViewModel.OpenHomePageCommand</definition>
+        <argsstring></argsstring>
+        <name>OpenHomePageCommand</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.OpenHomePageCommand</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="76" column="21" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a3d1fdad91907572414f0b5ced4ee6220" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICommand</type>
+        <definition>ICommand Client.Presentation.ViewModels.SettingsViewModel.ChangeSelectedPlayerSideCommand</definition>
+        <argsstring></argsstring>
+        <name>ChangeSelectedPlayerSideCommand</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.ChangeSelectedPlayerSideCommand</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="98" column="21" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1ab9762f626eabb01d18fcfcb388055e02" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Presentation.ViewModels.SettingsViewModel.OnOpenHomeCommandExecuted</definition>
+        <argsstring>(object o)</argsstring>
+        <name>OnOpenHomeCommandExecuted</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.OnOpenHomeCommandExecuted</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+<para>Executes the action to save settings and navigate to the home page. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="81" column="18" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="81" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1aad45f4ca893a6b8b335e0f2a68dafb27" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Presentation.ViewModels.SettingsViewModel._changeSelectedPlayerSideCommandExecuted</definition>
+        <argsstring>(object o)</argsstring>
+        <name>_changeSelectedPlayerSideCommandExecuted</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel._changeSelectedPlayerSideCommandExecuted</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+<para>Executes the action to change the selected player side. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="103" column="18" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="103" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a613b2a7490196c16356c1ff72f38e5d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Presentation.ViewModels.SettingsViewModel.ChangePort</definition>
+        <argsstring>(string portName)</argsstring>
+        <name>ChangePort</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.ChangePort</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>portName</declname>
+        </param>
+        <briefdescription>
+<para>Changes the port setting. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>portName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the port to select.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="138" column="18" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="138" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a622b8524ceda20900b5486c22e397866" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Presentation.ViewModels.SettingsViewModel.ChangePortSpeed</definition>
+        <argsstring>(int portSpeed)</argsstring>
+        <name>ChangePortSpeed</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.ChangePortSpeed</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>portSpeed</declname>
+        </param>
+        <briefdescription>
+<para>Changes the port speed setting. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>portSpeed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The port speed to set.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="154" column="18" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="154" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a6d42ac67cddd28c5ffcfc3ae137ede26" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Client.Presentation.ViewModels.SettingsViewModel.ChangeGameMode</definition>
+        <argsstring>(string gameMode)</argsstring>
+        <name>ChangeGameMode</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.ChangeGameMode</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>gameMode</declname>
+        </param>
+        <briefdescription>
+<para>Changes the game mode setting. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gameMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The game mode to set.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="170" column="18" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="170" bodyend="180"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a56055331f7de7d34b32993ddc17862ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Client.Presentation.ViewModels.SettingsViewModel.SettingsViewModel</definition>
+        <argsstring>(INavigator navigator, ISettingsService settings)</argsstring>
+        <name>SettingsViewModel</name>
+        <qualifiedname>Client.Presentation.ViewModels.SettingsViewModel.SettingsViewModel</qualifiedname>
+        <param>
+          <type><ref refid="interface_client_1_1_presentation_1_1_services_1_1_navigator_1_1_i_navigator" kindref="compound">INavigator</ref></type>
+          <declname>navigator</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_client_1_1_domain_1_1_services_1_1_settings_1_1_i_settings_service" kindref="compound">ISettingsService</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model" kindref="compound">SettingsViewModel</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>navigator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The navigator used for page navigation.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The settings service for interacting with application settings.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="122" column="12" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="122" bodyend="132"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>ViewModel for managing the settings page, responsible for interacting with settings services and updating the configuration for ports, game mode, and player side. Provides commands for saving settings and changing the selected player side. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseViewModel</label>
+        <link refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Client.Presentation.ViewModels.SettingsViewModel</label>
+        <link refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="3">
+        <label>ObservableObject</label>
+        <link refid="class_client_1_1_domain_1_1_services_1_1_observable_object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseViewModel</label>
+        <link refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Client.Presentation.ViewModels.SettingsViewModel</label>
+        <link refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="3">
+        <label>ObservableObject</label>
+        <link refid="class_client_1_1_domain_1_1_services_1_1_observable_object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" line="16" column="7" bodyfile="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client/ViewModels/SettingsViewModel.cs" bodystart="17" bodyend="181"/>
+    <listofallmembers>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a9c879525a0a3dd6c97cae1738ed4dceb" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>_changeSelectedPlayerSideCommand</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1aad45f4ca893a6b8b335e0f2a68dafb27" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>_changeSelectedPlayerSideCommandExecuted</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a998d45a8d0ca7bf36516adf99d616c7a" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>_gameSettings</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1aa3b11af7b748a94a446de8040521b94a" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>_openHomePageCommand</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a750730c8cf4ff59d5294f23f94ef4856" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>_portSettings</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1af72bec226b3e85ff7668fd8e6abe63f0" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>_selectedGameMode</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a50d629cb3a26615cc5d7ef1aa5b6e5ac" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>_selectedPlayerSide</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1afdd24f89b438946332cd9db973678670" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>_selectedPortName</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a0b3869750e4e159797643b8e18e5fe80" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>_selectedPortSpeed</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1ae099fc4582c851825a086104083c0cc1" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>_settings</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model_1ae2d77d612c3b9a84fca5c04c647a35e8" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>BaseViewModel</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a6d42ac67cddd28c5ffcfc3ae137ede26" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>ChangeGameMode</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a613b2a7490196c16356c1ff72f38e5d3" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>ChangePort</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a622b8524ceda20900b5486c22e397866" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>ChangePortSpeed</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a3d1fdad91907572414f0b5ced4ee6220" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>ChangeSelectedPlayerSideCommand</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1af31b3970d6a3341237dde8031588a75d" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>GameModes</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_base_view_model_1aaf1de7b88f2e3a1267d9353f6fc5f1c1" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>Navigator</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1ab9762f626eabb01d18fcfcb388055e02" prot="private" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>OnOpenHomeCommandExecuted</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_observable_object_1af1409a7463d72be66764b71359c6cbed" prot="protected" virt="virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1ac47bc95446a05ef189cb386b0b68d4f4" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>OpacityOSide</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1aabef81052e540cfe5719bd14e86c7221" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>OpacityXSide</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a3491c2a9f70a3f52a777591716c5494f" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>OpenHomePageCommand</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a0f5788774c08dcd49992c25a3c3307eb" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>Ports</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a758e513c1933dfe6a39b554ec5844837" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>PortSpeeds</name></member>
+      <member refid="class_client_1_1_domain_1_1_services_1_1_observable_object_1af4dff471043a93a50e17ea4b5f51e6f7" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a40f56e8d2ccb030f2b77a91b9db45fd1" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>SelectedGameMode</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1af5ed600d14b83e8e675f915671d51568" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>SelectedPort</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a8c48cee35cbf392bf6b3d18ac99c9eb7" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>SelectedPortSpeed</name></member>
+      <member refid="class_client_1_1_presentation_1_1_view_models_1_1_settings_view_model_1a56055331f7de7d34b32993ddc17862ea" prot="public" virt="non-virtual"><scope>Client::Presentation::ViewModels::SettingsViewModel</scope><name>SettingsViewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

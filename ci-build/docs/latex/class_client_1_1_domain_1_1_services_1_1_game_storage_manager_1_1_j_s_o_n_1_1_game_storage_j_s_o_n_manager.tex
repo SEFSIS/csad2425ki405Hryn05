@@ -1,0 +1,123 @@
+\doxysection{Client.\+Domain.\+Services.\+Game\+Storage\+Manager.\+JSON.\+Game\+Storage\+JSONManager Class Reference}
+\hypertarget{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager}{}\label{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager}\index{Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager@{Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager}}
+
+
+Implementation of IGame\+Storage\+Manager that uses \doxylink{namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n}{JSON} serialization for saving and loading game states.  
+
+
+Inheritance diagram for Client.\+Domain.\+Services.\+Game\+Storage\+Manager.\+JSON.\+Game\+Storage\+JSONManager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}} \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_ac50e4056b6a4e152acd2ef7045adfe7b}{Load\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Loads a game state from an \doxylink{namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n}{JSON} file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_a9b47264e696c5960939149319d0bdc76}{Save\+Game}} (\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}} game)
+\begin{DoxyCompactList}\small\item\em Saves a game state to an \doxylink{namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n}{JSON} file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager}{Client.\+Domain.\+Services.\+IStorage\+Manager.\+IGame\+Storage\+Manager}}}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_ab80aabd41bc8a8776e170d18b4a4b0a3}{Get\+Path\+To\+Save\+Json}} (string default\+Path)
+\begin{DoxyCompactList}\small\item\em Opens a dialog for selecting a file to save as \doxylink{namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n}{JSON}. \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_a8e4be7f7dc4b103fcc7d56391bba37c7}{Get\+Path\+To\+Load\+Json}} (string default\+Path)
+\begin{DoxyCompactList}\small\item\em Opens a dialog for selecting an \doxylink{namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n}{JSON} file to load. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation of IGame\+Storage\+Manager that uses \doxylink{namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n}{JSON} serialization for saving and loading game states. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_a8e4be7f7dc4b103fcc7d56391bba37c7}\index{Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager@{Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager}!GetPathToLoadJson@{GetPathToLoadJson}}
+\index{GetPathToLoadJson@{GetPathToLoadJson}!Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager@{Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager}}
+\doxysubsubsection{\texorpdfstring{GetPathToLoadJson()}{GetPathToLoadJson()}}
+{\footnotesize\ttfamily \label{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_a8e4be7f7dc4b103fcc7d56391bba37c7} 
+static string Client.\+Domain.\+Services.\+Game\+Storage\+Manager.\+JSON.\+Game\+Storage\+JSONManager.\+Get\+Path\+To\+Load\+Json (\begin{DoxyParamCaption}\item[{string}]{default\+Path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Opens a dialog for selecting an \doxylink{namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n}{JSON} file to load. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em default\+Path} & The default folder path for the dialog.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The selected file path, or {\ttfamily null} if the dialog is canceled.
+\end{DoxyReturn}
+\Hypertarget{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_ab80aabd41bc8a8776e170d18b4a4b0a3}\index{Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager@{Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager}!GetPathToSaveJson@{GetPathToSaveJson}}
+\index{GetPathToSaveJson@{GetPathToSaveJson}!Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager@{Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager}}
+\doxysubsubsection{\texorpdfstring{GetPathToSaveJson()}{GetPathToSaveJson()}}
+{\footnotesize\ttfamily \label{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_ab80aabd41bc8a8776e170d18b4a4b0a3} 
+static string Client.\+Domain.\+Services.\+Game\+Storage\+Manager.\+JSON.\+Game\+Storage\+JSONManager.\+Get\+Path\+To\+Save\+Json (\begin{DoxyParamCaption}\item[{string}]{default\+Path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Opens a dialog for selecting a file to save as \doxylink{namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n}{JSON}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em default\+Path} & The default folder path for the dialog.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The selected file path, or {\ttfamily null} if the dialog is canceled.
+\end{DoxyReturn}
+\Hypertarget{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_ac50e4056b6a4e152acd2ef7045adfe7b}\index{Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager@{Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager}!LoadGame@{LoadGame}}
+\index{LoadGame@{LoadGame}!Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager@{Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager}}
+\doxysubsubsection{\texorpdfstring{LoadGame()}{LoadGame()}}
+{\footnotesize\ttfamily \label{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_ac50e4056b6a4e152acd2ef7045adfe7b} 
+\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}} Client.\+Domain.\+Services.\+Game\+Storage\+Manager.\+JSON.\+Game\+Storage\+JSONManager.\+Load\+Game (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Loads a game state from an \doxylink{namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n}{JSON} file. 
+
+\begin{DoxyReturn}{Returns}
+The loaded Game\+State object.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Invalid\+Operation\+Exception} & Thrown if the \doxylink{namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n}{JSON} file cannot be deserialized into a \doxylink{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_state_j_s_o_n}{Game\+State\+JSON}.\\
+\hline
+{\em File\+Not\+Found\+Exception} & Thrown if the file specified by the user does not exist.\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager_a19b1b0b540dadd0984f9fbaa2285137a}{Client.\+Domain.\+Services.\+IStorage\+Manager.\+IGame\+Storage\+Manager}}.
+
+\Hypertarget{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_a9b47264e696c5960939149319d0bdc76}\index{Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager@{Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager}!SaveGame@{SaveGame}}
+\index{SaveGame@{SaveGame}!Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager@{Client.Domain.Services.GameStorageManager.JSON.GameStorageJSONManager}}
+\doxysubsubsection{\texorpdfstring{SaveGame()}{SaveGame()}}
+{\footnotesize\ttfamily \label{class_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n_1_1_game_storage_j_s_o_n_manager_a9b47264e696c5960939149319d0bdc76} 
+void Client.\+Domain.\+Services.\+Game\+Storage\+Manager.\+JSON.\+Game\+Storage\+JSONManager.\+Save\+Game (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_client_1_1_domain_1_1_services_1_1_game_service_1_1_game_state}{Game\+State}}}]{game}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Saves a game state to an \doxylink{namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager_1_1_j_s_o_n}{JSON} file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & The game state to save.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Invalid\+Operation\+Exception} & Thrown if the Game\+State cannot be serialized.\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_client_1_1_domain_1_1_services_1_1_i_storage_manager_1_1_i_game_storage_manager_a9e542eb002a9353fa744a9cf809f9db3}{Client.\+Domain.\+Services.\+IStorage\+Manager.\+IGame\+Storage\+Manager}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Subjects/7 semester/\+CSAD/\+New folder/csad2425ki405\+Hryn05/\+Lab3-\/4/\+Client/\+Client.\+Domain/\+Services/\+Game\+Storage\+Manager/\+JSON/Game\+Storage\+JSONManager.\+cs\end{DoxyCompactItemize}

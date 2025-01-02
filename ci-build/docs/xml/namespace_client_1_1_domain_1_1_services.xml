@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="namespace_client_1_1_domain_1_1_services" kind="namespace" language="C#">
+    <compoundname>Client::Domain::Services</compoundname>
+    <innerclass refid="class_client_1_1_domain_1_1_services_1_1_observable_object" prot="public">Client::Domain::Services::ObservableObject</innerclass>
+    <innerclass refid="class_client_1_1_domain_1_1_services_1_1_relay_command" prot="public">Client::Domain::Services::RelayCommand</innerclass>
+    <innernamespace refid="namespace_client_1_1_domain_1_1_services_1_1_game_service">Client::Domain::Services::GameService</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain_1_1_services_1_1_game_storage_manager">Client::Domain::Services::GameStorageManager</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain_1_1_services_1_1_i_storage_manager">Client::Domain::Services::IStorageManager</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain_1_1_services_1_1_server_service">Client::Domain::Services::ServerService</innernamespace>
+    <innernamespace refid="namespace_client_1_1_domain_1_1_services_1_1_settings">Client::Domain::Services::Settings</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Subjects/7 semester/CSAD/New folder/csad2425ki405Hryn05/Lab3-4/Client/Client.Domain/Services/GameService/GameCommand.cs" line="1" column="1"/>
+  </compounddef>
+</doxygen>

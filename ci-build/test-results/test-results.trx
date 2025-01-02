@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="bc86d903-a2c8-497e-8adb-ff756e0fa115" name="Yaroslav@DESKTOP-A038BOA 2024-12-31 13:50:25" runUser="DESKTOP-A038BOA\Yaroslav" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-12-31T13:50:25.3822235+02:00" queuing="2024-12-31T13:50:25.3822236+02:00" start="2024-12-31T13:50:21.2936345+02:00" finish="2024-12-31T13:50:25.4083991+02:00" />
+  <TestSettings name="default" id="137f421c-997e-41e3-b142-051cedebe788">
+    <Deployment runDeploymentRoot="Yaroslav_DESKTOP-A038BOA_2024-12-31_13_50_25" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a2d1c518-5e4d-448e-a4ac-589c7cd9a90d" testId="64e714d6-22a4-041c-7de1-a44502c6950b" testName="Constructor_ThrowArgumentNullException_WhenArgumentsAreNull" computerName="DESKTOP-A038BOA" duration="00:00:00.9379264" startTime="2024-12-31T13:50:24.3893488+02:00" endTime="2024-12-31T13:50:25.3348286+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2d1c518-5e4d-448e-a4ac-589c7cd9a90d" />
+    <UnitTestResult executionId="bd4b00d3-348c-4243-9b9d-62d1c42e6b8c" testId="133b6814-54e3-6526-6b14-688839d4c821" testName="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist (0,-1)" computerName="DESKTOP-A038BOA" duration="00:00:00.0002468" startTime="2024-12-31T13:50:25.3628375+02:00" endTime="2024-12-31T13:50:25.3631805+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd4b00d3-348c-4243-9b9d-62d1c42e6b8c" />
+    <UnitTestResult executionId="15bdc983-58ae-4226-bd56-3e28c3ac8962" testId="af05363e-f288-ebff-2256-c0bdeff50fb6" testName="InvokeGameCommand_ExecuteNewGameCommand_WhenStateIsNew" computerName="DESKTOP-A038BOA" duration="00:00:00.0075150" startTime="2024-12-31T13:50:25.3375143+02:00" endTime="2024-12-31T13:50:25.3452034+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15bdc983-58ae-4226-bd56-3e28c3ac8962" />
+    <UnitTestResult executionId="6abc6730-6f9f-42f1-92f2-7fca937f82b5" testId="026537f4-e1b5-9fc9-0296-6ccd1190b5e4" testName="Move_ReturnGameState_WhenGameStateUnchanged" computerName="DESKTOP-A038BOA" duration="00:00:00.0003233" startTime="2024-12-31T13:50:25.3590901+02:00" endTime="2024-12-31T13:50:25.3594862+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6abc6730-6f9f-42f1-92f2-7fca937f82b5" />
+    <UnitTestResult executionId="e9503255-e82e-4f9a-9c48-0f4689e31918" testId="5a7001ee-1e75-0e93-3d6f-d538a3fd810d" testName="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist (3,0)" computerName="DESKTOP-A038BOA" duration="00:00:00.0000935" startTime="2024-12-31T13:50:25.3697586+02:00" endTime="2024-12-31T13:50:25.3700169+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9503255-e82e-4f9a-9c48-0f4689e31918" />
+    <UnitTestResult executionId="d83c9871-33c5-4c10-8685-917178789965" testId="69afdfc5-c59a-c05d-0161-e10db7c81dcd" testName="GetServerPort_ReturnConnectedSerialPort_WhenReturnedNeededPort" computerName="DESKTOP-A038BOA" duration="00:00:00.0066535" startTime="2024-12-31T13:50:25.3521303+02:00" endTime="2024-12-31T13:50:25.3588525+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d83c9871-33c5-4c10-8685-917178789965" />
+    <UnitTestResult executionId="15bf3ddb-50ef-49aa-b62b-f1e14b327617" testId="2aaab0b5-d002-84de-6a25-54aa1d300e4f" testName="Move_MakeMove_WhenBoardChangedPredictably (0,0)" computerName="DESKTOP-A038BOA" duration="00:00:00.0016323" startTime="2024-12-31T13:50:25.3703050+02:00" endTime="2024-12-31T13:50:25.3725101+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15bf3ddb-50ef-49aa-b62b-f1e14b327617" />
+    <UnitTestResult executionId="7dfd084e-87ce-4ae8-8995-11368241f5ba" testId="a29013b6-466a-f553-5b29-cbe963bb6c8d" testName="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist (0,3)" computerName="DESKTOP-A038BOA" duration="00:00:00.0000521" startTime="2024-12-31T13:50:25.3700489+02:00" endTime="2024-12-31T13:50:25.3701743+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7dfd084e-87ce-4ae8-8995-11368241f5ba" />
+    <UnitTestResult executionId="eeb3b3c2-3d9e-4190-826b-7b0398d91df0" testId="e5b62b0e-9bf6-a409-615d-6678b3e0707a" testName="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist (-1,-1)" computerName="DESKTOP-A038BOA" duration="00:00:00.0001960" startTime="2024-12-31T13:50:25.3694092+02:00" endTime="2024-12-31T13:50:25.3697316+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eeb3b3c2-3d9e-4190-826b-7b0398d91df0" />
+    <UnitTestResult executionId="d1061298-388b-4f07-96e3-de7a93f4a65b" testId="d0f134f3-ffc5-6045-2be9-fa81030d4a4b" testName="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist (3,3)" computerName="DESKTOP-A038BOA" duration="00:00:00.0000529" startTime="2024-12-31T13:50:25.3701888+02:00" endTime="2024-12-31T13:50:25.3702894+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1061298-388b-4f07-96e3-de7a93f4a65b" />
+    <UnitTestResult executionId="97105864-087c-47a6-82de-3123e12cc513" testId="f22d09ee-806a-9290-39f3-83750233605b" testName="GetGameState_ReturnCurentGameState_WhenReturnedNewGameState" computerName="DESKTOP-A038BOA" duration="00:00:00.0001254" startTime="2024-12-31T13:50:25.3588792+02:00" endTime="2024-12-31T13:50:25.3590635+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97105864-087c-47a6-82de-3123e12cc513" />
+    <UnitTestResult executionId="cffe045f-71cc-4632-837d-104db5a37eb9" testId="116e8b0b-0d0d-214d-dae8-8284b0612d51" testName="SaveGameCommand_ExecuteSaveGameCommand_WhenCallsSaveMethodWithGameState" computerName="DESKTOP-A038BOA" duration="00:00:00.0019867" startTime="2024-12-31T13:50:25.3500346+02:00" endTime="2024-12-31T13:50:25.3521025+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cffe045f-71cc-4632-837d-104db5a37eb9" />
+    <UnitTestResult executionId="48f04aa4-9835-4a83-a0e3-94751e18b084" testId="29e367e7-2c2e-e076-dd77-d37380fed57d" testName="InvokeGameCommand_ExecuteLoadGameCommand_WhenCallsLoadMethodAndStateIsPredicted" computerName="DESKTOP-A038BOA" duration="00:00:00.0045009" startTime="2024-12-31T13:50:25.3454141+02:00" endTime="2024-12-31T13:50:25.3500052+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48f04aa4-9835-4a83-a0e3-94751e18b084" />
+    <UnitTestResult executionId="78424006-ddc1-40da-9532-acada5801942" testId="49c317ce-73eb-2c44-1d5b-f8d9fd923abf" testName="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist (-1,0)" computerName="DESKTOP-A038BOA" duration="00:00:00.0003491" startTime="2024-12-31T13:50:25.3595146+02:00" endTime="2024-12-31T13:50:25.3628119+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78424006-ddc1-40da-9532-acada5801942" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist (0,3)" storage="d:\subjects\7 semester\csad\new folder\csad2425ki405hryn05\lab3\client\client.domain.tests\bin\debug\net8.0-windows\client.domain.tests.dll" id="a29013b6-466a-f553-5b29-cbe963bb6c8d">
+      <Execution id="7dfd084e-87ce-4ae8-8995-11368241f5ba" />
+      <TestMethod codeBase="D:\Subjects\7 semester\CSAD\New folder\csad2425ki405Hryn05\Lab3\Client\Client.Domain.Tests\bin\Debug\net8.0-windows\Client.Domain.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="Client.Domain.Tests.GameServiceTests" name="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist" />
+    </UnitTest>
+    <UnitTest name="GetServerPort_ReturnConnectedSerialPort_WhenReturnedNeededPort" storage="d:\subjects\7 semester\csad\new folder\csad2425ki405hryn05\lab3\client\client.domain.tests\bin\debug\net8.0-windows\client.domain.tests.dll" id="69afdfc5-c59a-c05d-0161-e10db7c81dcd">
+      <Execution id="d83c9871-33c5-4c10-8685-917178789965" />
+      <TestMethod codeBase="D:\Subjects\7 semester\CSAD\New folder\csad2425ki405Hryn05\Lab3\Client\Client.Domain.Tests\bin\Debug\net8.0-windows\Client.Domain.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="Client.Domain.Tests.GameServiceTests" name="GetServerPort_ReturnConnectedSerialPort_WhenReturnedNeededPort" />
+    </UnitTest>
+    <UnitTest name="InvokeGameCommand_ExecuteNewGameCommand_WhenStateIsNew" storage="d:\subjects\7 semester\csad\new folder\csad2425ki405hryn05\lab3\client\client.domain.tests\bin\debug\net8.0-windows\client.domain.tests.dll" id="af05363e-f288-ebff-2256-c0bdeff50fb6">
+      <Execution id="15bdc983-58ae-4226-bd56-3e28c3ac8962" />
+      <TestMethod codeBase="D:\Subjects\7 semester\CSAD\New folder\csad2425ki405Hryn05\Lab3\Client\Client.Domain.Tests\bin\Debug\net8.0-windows\Client.Domain.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="Client.Domain.Tests.GameServiceTests" name="InvokeGameCommand_ExecuteNewGameCommand_WhenStateIsNew" />
+    </UnitTest>
+    <UnitTest name="Move_ReturnGameState_WhenGameStateUnchanged" storage="d:\subjects\7 semester\csad\new folder\csad2425ki405hryn05\lab3\client\client.domain.tests\bin\debug\net8.0-windows\client.domain.tests.dll" id="026537f4-e1b5-9fc9-0296-6ccd1190b5e4">
+      <Execution id="6abc6730-6f9f-42f1-92f2-7fca937f82b5" />
+      <TestMethod codeBase="D:\Subjects\7 semester\CSAD\New folder\csad2425ki405Hryn05\Lab3\Client\Client.Domain.Tests\bin\Debug\net8.0-windows\Client.Domain.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="Client.Domain.Tests.GameServiceTests" name="Move_ReturnGameState_WhenGameStateUnchanged" />
+    </UnitTest>
+    <UnitTest name="GetGameState_ReturnCurentGameState_WhenReturnedNewGameState" storage="d:\subjects\7 semester\csad\new folder\csad2425ki405hryn05\lab3\client\client.domain.tests\bin\debug\net8.0-windows\client.domain.tests.dll" id="f22d09ee-806a-9290-39f3-83750233605b">
+      <Execution id="97105864-087c-47a6-82de-3123e12cc513" />
+      <TestMethod codeBase="D:\Subjects\7 semester\CSAD\New folder\csad2425ki405Hryn05\Lab3\Client\Client.Domain.Tests\bin\Debug\net8.0-windows\Client.Domain.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="Client.Domain.Tests.GameServiceTests" name="GetGameState_ReturnCurentGameState_WhenReturnedNewGameState" />
+    </UnitTest>
+    <UnitTest name="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist (3,3)" storage="d:\subjects\7 semester\csad\new folder\csad2425ki405hryn05\lab3\client\client.domain.tests\bin\debug\net8.0-windows\client.domain.tests.dll" id="d0f134f3-ffc5-6045-2be9-fa81030d4a4b">
+      <Execution id="d1061298-388b-4f07-96e3-de7a93f4a65b" />
+      <TestMethod codeBase="D:\Subjects\7 semester\CSAD\New folder\csad2425ki405Hryn05\Lab3\Client\Client.Domain.Tests\bin\Debug\net8.0-windows\Client.Domain.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="Client.Domain.Tests.GameServiceTests" name="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist" />
+    </UnitTest>
+    <UnitTest name="InvokeGameCommand_ExecuteLoadGameCommand_WhenCallsLoadMethodAndStateIsPredicted" storage="d:\subjects\7 semester\csad\new folder\csad2425ki405hryn05\lab3\client\client.domain.tests\bin\debug\net8.0-windows\client.domain.tests.dll" id="29e367e7-2c2e-e076-dd77-d37380fed57d">
+      <Execution id="48f04aa4-9835-4a83-a0e3-94751e18b084" />
+      <TestMethod codeBase="D:\Subjects\7 semester\CSAD\New folder\csad2425ki405Hryn05\Lab3\Client\Client.Domain.Tests\bin\Debug\net8.0-windows\Client.Domain.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="Client.Domain.Tests.GameServiceTests" name="InvokeGameCommand_ExecuteLoadGameCommand_WhenCallsLoadMethodAndStateIsPredicted" />
+    </UnitTest>
+    <UnitTest name="Move_MakeMove_WhenBoardChangedPredictably (0,0)" storage="d:\subjects\7 semester\csad\new folder\csad2425ki405hryn05\lab3\client\client.domain.tests\bin\debug\net8.0-windows\client.domain.tests.dll" id="2aaab0b5-d002-84de-6a25-54aa1d300e4f">
+      <Execution id="15bf3ddb-50ef-49aa-b62b-f1e14b327617" />
+      <TestMethod codeBase="D:\Subjects\7 semester\CSAD\New folder\csad2425ki405Hryn05\Lab3\Client\Client.Domain.Tests\bin\Debug\net8.0-windows\Client.Domain.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="Client.Domain.Tests.GameServiceTests" name="Move_MakeMove_WhenBoardChangedPredictably" />
+    </UnitTest>
+    <UnitTest name="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist (-1,-1)" storage="d:\subjects\7 semester\csad\new folder\csad2425ki405hryn05\lab3\client\client.domain.tests\bin\debug\net8.0-windows\client.domain.tests.dll" id="e5b62b0e-9bf6-a409-615d-6678b3e0707a">
+      <Execution id="eeb3b3c2-3d9e-4190-826b-7b0398d91df0" />
+      <TestMethod codeBase="D:\Subjects\7 semester\CSAD\New folder\csad2425ki405Hryn05\Lab3\Client\Client.Domain.Tests\bin\Debug\net8.0-windows\Client.Domain.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="Client.Domain.Tests.GameServiceTests" name="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist" />
+    </UnitTest>
+    <UnitTest name="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist (0,-1)" storage="d:\subjects\7 semester\csad\new folder\csad2425ki405hryn05\lab3\client\client.domain.tests\bin\debug\net8.0-windows\client.domain.tests.dll" id="133b6814-54e3-6526-6b14-688839d4c821">
+      <Execution id="bd4b00d3-348c-4243-9b9d-62d1c42e6b8c" />
+      <TestMethod codeBase="D:\Subjects\7 semester\CSAD\New folder\csad2425ki405Hryn05\Lab3\Client\Client.Domain.Tests\bin\Debug\net8.0-windows\Client.Domain.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="Client.Domain.Tests.GameServiceTests" name="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist" />
+    </UnitTest>
+    <UnitTest name="Constructor_ThrowArgumentNullException_WhenArgumentsAreNull" storage="d:\subjects\7 semester\csad\new folder\csad2425ki405hryn05\lab3\client\client.domain.tests\bin\debug\net8.0-windows\client.domain.tests.dll" id="64e714d6-22a4-041c-7de1-a44502c6950b">
+      <Execution id="a2d1c518-5e4d-448e-a4ac-589c7cd9a90d" />
+      <TestMethod codeBase="D:\Subjects\7 semester\CSAD\New folder\csad2425ki405Hryn05\Lab3\Client\Client.Domain.Tests\bin\Debug\net8.0-windows\Client.Domain.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="Client.Domain.Tests.GameServiceTests" name="Constructor_ThrowArgumentNullException_WhenArgumentsAreNull" />
+    </UnitTest>
+    <UnitTest name="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist (-1,0)" storage="d:\subjects\7 semester\csad\new folder\csad2425ki405hryn05\lab3\client\client.domain.tests\bin\debug\net8.0-windows\client.domain.tests.dll" id="49c317ce-73eb-2c44-1d5b-f8d9fd923abf">
+      <Execution id="78424006-ddc1-40da-9532-acada5801942" />
+      <TestMethod codeBase="D:\Subjects\7 semester\CSAD\New folder\csad2425ki405Hryn05\Lab3\Client\Client.Domain.Tests\bin\Debug\net8.0-windows\Client.Domain.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="Client.Domain.Tests.GameServiceTests" name="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist" />
+    </UnitTest>
+    <UnitTest name="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist (3,0)" storage="d:\subjects\7 semester\csad\new folder\csad2425ki405hryn05\lab3\client\client.domain.tests\bin\debug\net8.0-windows\client.domain.tests.dll" id="5a7001ee-1e75-0e93-3d6f-d538a3fd810d">
+      <Execution id="e9503255-e82e-4f9a-9c48-0f4689e31918" />
+      <TestMethod codeBase="D:\Subjects\7 semester\CSAD\New folder\csad2425ki405Hryn05\Lab3\Client\Client.Domain.Tests\bin\Debug\net8.0-windows\Client.Domain.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="Client.Domain.Tests.GameServiceTests" name="Move_ThrowArgumentOutOfRangeException_WhenCoordinateCellDoNotExist" />
+    </UnitTest>
+    <UnitTest name="SaveGameCommand_ExecuteSaveGameCommand_WhenCallsSaveMethodWithGameState" storage="d:\subjects\7 semester\csad\new folder\csad2425ki405hryn05\lab3\client\client.domain.tests\bin\debug\net8.0-windows\client.domain.tests.dll" id="116e8b0b-0d0d-214d-dae8-8284b0612d51">
+      <Execution id="cffe045f-71cc-4632-837d-104db5a37eb9" />
+      <TestMethod codeBase="D:\Subjects\7 semester\CSAD\New folder\csad2425ki405Hryn05\Lab3\Client\Client.Domain.Tests\bin\Debug\net8.0-windows\Client.Domain.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="Client.Domain.Tests.GameServiceTests" name="SaveGameCommand_ExecuteSaveGameCommand_WhenCallsSaveMethodWithGameState" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="64e714d6-22a4-041c-7de1-a44502c6950b" executionId="a2d1c518-5e4d-448e-a4ac-589c7cd9a90d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="133b6814-54e3-6526-6b14-688839d4c821" executionId="bd4b00d3-348c-4243-9b9d-62d1c42e6b8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af05363e-f288-ebff-2256-c0bdeff50fb6" executionId="15bdc983-58ae-4226-bd56-3e28c3ac8962" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="026537f4-e1b5-9fc9-0296-6ccd1190b5e4" executionId="6abc6730-6f9f-42f1-92f2-7fca937f82b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a7001ee-1e75-0e93-3d6f-d538a3fd810d" executionId="e9503255-e82e-4f9a-9c48-0f4689e31918" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69afdfc5-c59a-c05d-0161-e10db7c81dcd" executionId="d83c9871-33c5-4c10-8685-917178789965" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2aaab0b5-d002-84de-6a25-54aa1d300e4f" executionId="15bf3ddb-50ef-49aa-b62b-f1e14b327617" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a29013b6-466a-f553-5b29-cbe963bb6c8d" executionId="7dfd084e-87ce-4ae8-8995-11368241f5ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5b62b0e-9bf6-a409-615d-6678b3e0707a" executionId="eeb3b3c2-3d9e-4190-826b-7b0398d91df0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0f134f3-ffc5-6045-2be9-fa81030d4a4b" executionId="d1061298-388b-4f07-96e3-de7a93f4a65b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f22d09ee-806a-9290-39f3-83750233605b" executionId="97105864-087c-47a6-82de-3123e12cc513" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="116e8b0b-0d0d-214d-dae8-8284b0612d51" executionId="cffe045f-71cc-4632-837d-104db5a37eb9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="29e367e7-2c2e-e076-dd77-d37380fed57d" executionId="48f04aa4-9835-4a83-a0e3-94751e18b084" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49c317ce-73eb-2c44-1d5b-f8d9fd923abf" executionId="78424006-ddc1-40da-9532-acada5801942" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="14" executed="14" passed="14" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

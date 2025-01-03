@@ -28,7 +28,7 @@ jobs:
       - name: Use Local CI Client Test Script
         shell: pwsh
         run: |
-          ./ci/windows/client-test-script.ps1
+          ./ci/windows/test-script.ps1
 
       - name: Post Test Report
         uses: bibipkins/dotnet-test-reporter@v1.4.1
